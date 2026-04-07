@@ -6,7 +6,6 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API
   - Integration
   - iPaaS
 url: >-
