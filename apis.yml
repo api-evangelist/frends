@@ -31,6 +31,32 @@ common:
     url: https://www.frends.com/
   - type: Documentation
     url: https://docs.frends.com/
+  - type: Integrations
+    url: https://frends.com/partners
+integrations:
+  - name: ISV
+  - name: SI
+  - name: SI dotSource
+  - name: SI Solita Denmark
+  - name: SI Harmony
+  - name: SI knowit
+  - name: SI NORD Group
+  - name: SI Dekiru Solutions
+  - name: SI Evitec
+  - name: SI Axonis
+  - name: ISV Miljödata
+  - name: SI Nortal
+  - name: SI Redpill Linpro
+  - name: SI Voglio
+  - name: SI XLENT
+  - name: SI PWC Norway
+  - name: SI Integration.team
+  - name: SI TietoEvry
+  - name: SI yim GmbH
+  - name: SI Matic Tribe
+  - name: SI AmberTech Solutions
+  - name: SI Netum
+  - name: SI Odycron Consulting
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
