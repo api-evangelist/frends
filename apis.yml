@@ -27,6 +27,10 @@ apis:
       - type: Documentation
         url: https://docs.frends.com/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/FrendsPlatform
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/frends-app
   - type: Website
     url: https://www.frends.com/
   - type: Documentation
