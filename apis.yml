@@ -37,7 +37,7 @@ common:
     url: https://docs.frends.com/
   - type: Integrations
     url: https://frends.com/partners
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.frends.com/llms.txt
 integrations:
   - name: ISV
