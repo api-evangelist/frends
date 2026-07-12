@@ -27,6 +27,8 @@ apis:
       - type: Documentation
         url: https://docs.frends.com/
 common:
+  - type: DomainSecurity
+    url: security/frends-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/FrendsPlatform
   - type: LinkedIn
