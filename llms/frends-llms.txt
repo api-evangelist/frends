@@ -1,0 +1,946 @@
+# Frends Docs
+
+## Docs
+
+- [Welcome](https://docs.frends.com/readme.md)
+- [Getting Started](https://docs.frends.com/get-started/getting-started-guide.md): How to get started with Frends, regardless of your role or task.
+- [Integration Development](https://docs.frends.com/get-started/getting-started-guide/integration-development.md): How to create, deploy and test integrations with Frends.
+- [Managing Integration Platform & Data](https://docs.frends.com/get-started/getting-started-guide/managing-integration-platform-and-data.md): How to check what is happening in your Frends environment.
+- [Supporting Integrations](https://docs.frends.com/get-started/getting-started-guide/supporting-integrations.md): Received a support ticket about Frends and no idea how to continue? Start here.
+- [Frends Glossary](https://docs.frends.com/get-started/frends-glossary.md): All the terms Frends uses, and what they mean.
+- [Frends Highlights](https://docs.frends.com/get-started/frends-highlights.md): Get familiar with the most popular Frends features.
+- [Help Resources](https://docs.frends.com/get-started/help-resources.md): Need help with Frends? We're here to assist!
+- [Centralized Portal](https://docs.frends.com/frends-development/centralized-portal.md): From featured content on the Start page, to Process Editor and managing your Agents, Frends Control Panel has it all.
+- [Frends Portal](https://docs.frends.com/frends-development/centralized-portal/frends-portal.md): Management for your Frends Tenants.
+- [Control Panel](https://docs.frends.com/frends-development/centralized-portal/control-panel.md): All the integration magic happens within Frends Control Panel.
+- [Integrations](https://docs.frends.com/frends-development/integrations.md): Frends is an integration platform, after all.
+- [Low-code Development](https://docs.frends.com/frends-development/integrations/low-code-development.md): We have visual process editor, enhanced with C# code.
+- [Connectors](https://docs.frends.com/frends-development/integrations/connectors.md): Tasks and triggers are the key building blocks of integrations in Frends.
+- [Shared State Storage](https://docs.frends.com/frends-development/integrations/shared-state-storage.md): Simple temporary value storage to store Process data between executions.
+- [Long Running Processes](https://docs.frends.com/frends-development/integrations/long-running-processes.md): Have your full business process in one place.
+- [Reusable Content](https://docs.frends.com/frends-development/integrations/reusable-content.md): Keeping yourself DRY makes things more simple.
+- [Templates](https://docs.frends.com/frends-development/integrations/templates.md): Starting point for your own customizations.
+- [API Management](https://docs.frends.com/frends-development/api-management.md): Creating and managing APIs has never been easier.
+- [API Specification](https://docs.frends.com/frends-development/api-management/api-specification.md): Creating an API is as easy as defining the OpenAPI specification.
+- [Passthrough APIs](https://docs.frends.com/frends-development/api-management/passthrough-apis.md): Coherent API endpoints without extra fluff.
+- [API Policies](https://docs.frends.com/frends-development/api-management/api-policies.md): Authentication and logging rules for your API endpoints.
+- [API Monitoring](https://docs.frends.com/frends-development/api-management/api-monitoring.md): Monitor all the connections to your Tenant.
+- [API Portal](https://docs.frends.com/frends-development/api-management/api-portal.md): Effortlessly create and publish your API docs.
+- [Agentic AI](https://docs.frends.com/frends-development/agentic-ai.md): AI that acts, not just answers.
+- [Intelligent AI Connector](https://docs.frends.com/frends-development/agentic-ai/intelligent-ai-connector.md): Allowing AI to participate in your Processes.
+- [Model Context Protocol](https://docs.frends.com/frends-development/agentic-ai/model-context-protocol.md): Connect AI to your systems through a standard protocol.
+- [AI Assistance](https://docs.frends.com/frends-development/ai-features.md): In Frends, AI is not an afterthought.
+- [AI Assisted Development](https://docs.frends.com/frends-development/ai-features/ai-assisted-development.md): AI in Frends will help you with configuring Tasks as well as create code.
+- [Documentation Generation](https://docs.frends.com/frends-development/ai-features/documentation-generation.md): Automate the least favorite task of all development with AI.
+- [AI Support Channels](https://docs.frends.com/frends-development/ai-features/ai-support-channels.md): Assistance for your specific questions.
+- [Frends Platform API](https://docs.frends.com/frends-development/frends-platform-api.md): Manage and operate your Frends Tenant using API.
+- [Dashboard & Monitoring](https://docs.frends.com/management-and-operations/dashboard-and-monitoring.md): Overview of the analytics features in Frends.
+- [Dashboard](https://docs.frends.com/management-and-operations/dashboard-and-monitoring/dashboard.md): Central monitoring view in Frends Control Panel.
+- [Process Instances](https://docs.frends.com/management-and-operations/dashboard-and-monitoring/process-instances.md): Logging for the Process executions.
+- [Error handling & Monitoring](https://docs.frends.com/management-and-operations/dashboard-and-monitoring/error-handling-and-monitoring.md): How to handle errors in Frends Processes.
+- [System Logs](https://docs.frends.com/management-and-operations/dashboard-and-monitoring/system-logs.md): System logs from the Agent and the containing operating system.
+- [AI Audit Logs](https://docs.frends.com/management-and-operations/dashboard-and-monitoring/ai-audit-logs.md): Monitor the use of AI in your Frends Tenant.
+- [User Management](https://docs.frends.com/management-and-operations/user-management.md): Frends includes RBAC user management capabilities.
+- [Task Management](https://docs.frends.com/management-and-operations/task-management.md): Managing Tasks in your Frends Tenant.
+- [Integration Lifecycle](https://docs.frends.com/management-and-operations/integration-lifecycle.md): CI/CD is built in to Frends.
+- [Deployment Pipeline](https://docs.frends.com/management-and-operations/integration-lifecycle/deployment-pipeline.md): Moving Processes from one phase to another.
+- [Environment Variables](https://docs.frends.com/management-and-operations/integration-lifecycle/environment-variables.md): Global values that allow easy deployment between Environments.
+- [Version Control](https://docs.frends.com/management-and-operations/integration-lifecycle/version-control.md): Traceability and backtrackability for your content in Frends.
+- [Maintenance & Support](https://docs.frends.com/management-and-operations/maintenance-and-support.md): Frends services are constantly being monitored and taken care of.
+- [Recovery from Disaster](https://docs.frends.com/management-and-operations/maintenance-and-support/recovery-from-disaster.md): How your services are recovered after a disastrous event.
+- [Frends Runtime Environment](https://docs.frends.com/hybrid-integration-architecture/frends-runtime.md): How different parts of Frends act together to execute Processes.
+- [Process Execution Model](https://docs.frends.com/hybrid-integration-architecture/process-execution-model.md): How are integrations executed on Frends.
+- [Deployment Models](https://docs.frends.com/hybrid-integration-architecture/deployment-models.md): You can deploy your Frends installation in most ways possible.
+- [Scalability](https://docs.frends.com/hybrid-integration-architecture/scalability.md): Frends can do both wide and tall.
+- [High Availability](https://docs.frends.com/hybrid-integration-architecture/high-availability.md): HA configuration ensures your services stay available.
+- [Technologies](https://docs.frends.com/hybrid-integration-architecture/technologies.md): Frends is built on Azure Cloud and .NET platform.
+- [Integration Security](https://docs.frends.com/security/integration-security.md): Securing your integrations on Frends Platform.
+- [Compliance](https://docs.frends.com/security/compliance.md): Frends is built to be compliant at foundational level.
+- [API Security Features](https://docs.frends.com/security/api-security-features.md): Frends APIs are built with ease of use and security in mind.
+- [Firewall Management](https://docs.frends.com/security/firewall-management.md): Manage access to your Frends for each Agent.
+- [Access Control](https://docs.frends.com/security/access-control.md): Give access to only those with a need.
+- [Data Encryption](https://docs.frends.com/security/data-encryption.md): Your data is protected with us.
+- [AI Trust & Transparency](https://docs.frends.com/security/ai-trust-and-transparency.md): Trust is built in with the Frends.
+
+* [Welcome](https://docs.frends.com/docs/frends-6.2.0/readme.md)
+* [Getting Started](https://docs.frends.com/docs/frends-6.2.0/get-started/getting-started-guide.md): How to get started with Frends, regardless of your role or task.
+* [Integration Development](https://docs.frends.com/docs/frends-6.2.0/get-started/getting-started-guide/integration-development.md): How to create, deploy and test integrations with Frends.
+* [Managing Integration Platform & Data](https://docs.frends.com/docs/frends-6.2.0/get-started/getting-started-guide/managing-integration-platform-and-data.md): How to check what is happening in your Frends environment.
+* [Supporting Integrations](https://docs.frends.com/docs/frends-6.2.0/get-started/getting-started-guide/supporting-integrations.md): Received a support ticket about Frends and no idea how to continue? Start here.
+* [Frends Glossary](https://docs.frends.com/docs/frends-6.2.0/get-started/frends-glossary.md): All the terms Frends uses, and what they mean.
+* [Frends Highlights](https://docs.frends.com/docs/frends-6.2.0/get-started/frends-highlights.md): Get familiar with the most popular Frends features.
+* [Help Resources](https://docs.frends.com/docs/frends-6.2.0/get-started/help-resources.md): Need help with Frends? We're here to assist!
+* [Centralized Portal](https://docs.frends.com/docs/frends-6.2.0/frends-development/centralized-portal.md): From featured content on the Start page, to Process Editor and managing your Agents, Frends Control Panel has it all.
+* [Frends Portal](https://docs.frends.com/docs/frends-6.2.0/frends-development/centralized-portal/frends-portal.md): Management for your Frends Tenants.
+* [Control Panel](https://docs.frends.com/docs/frends-6.2.0/frends-development/centralized-portal/control-panel.md): All the integration magic happens within Frends Control Panel.
+* [Integrations](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations.md): Frends is an integration platform, after all.
+* [Low-code Development](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations/low-code-development.md): We have visual process editor, enhanced with C# code.
+* [Connectors](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations/connectors.md): Tasks and triggers are the key building blocks of integrations in Frends.
+* [Shared State Storage](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations/shared-state-storage.md): Simple temporary value storage to store Process data between executions.
+* [Long Running Processes](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations/long-running-processes.md): Have your full business process in one place.
+* [Reusable Content](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations/reusable-content.md): Keeping yourself DRY makes things more simple.
+* [Templates](https://docs.frends.com/docs/frends-6.2.0/frends-development/integrations/templates.md): Starting point for your own customizations.
+* [API Management](https://docs.frends.com/docs/frends-6.2.0/frends-development/api-management.md): Creating and managing APIs has never been easier.
+* [API Specification](https://docs.frends.com/docs/frends-6.2.0/frends-development/api-management/api-specification.md): Creating an API is as easy as defining the OpenAPI specification.
+* [Passthrough APIs](https://docs.frends.com/docs/frends-6.2.0/frends-development/api-management/passthrough-apis.md): Coherent API endpoints without extra fluff.
+* [API Policies](https://docs.frends.com/docs/frends-6.2.0/frends-development/api-management/api-policies.md): Authentication and logging rules for your API endpoints.
+* [API Monitoring](https://docs.frends.com/docs/frends-6.2.0/frends-development/api-management/api-monitoring.md): Monitor all the connections to your Tenant.
+* [API Portal](https://docs.frends.com/docs/frends-6.2.0/frends-development/api-management/api-portal.md): Effortlessly create and publish your API docs.
+* [AI features](https://docs.frends.com/docs/frends-6.2.0/frends-development/ai-features.md): In Frends, AI is not an afterthought.
+* [AI Assisted Development](https://docs.frends.com/docs/frends-6.2.0/frends-development/ai-features/ai-assisted-development.md): AI in Frends will help you with configuring Tasks as well as create code.
+* [Documentation Generation](https://docs.frends.com/docs/frends-6.2.0/frends-development/ai-features/documentation-generation.md): Automate the least favorite task of all development with AI.
+* [Intelligent AI Connector](https://docs.frends.com/docs/frends-6.2.0/frends-development/ai-features/intelligent-ai-connector.md): Allowing AI to participate in your Processes.
+* [AI Support Channels](https://docs.frends.com/docs/frends-6.2.0/frends-development/ai-features/ai-support-channels.md): Assistance for your specific questions.
+* [Frends Platform API](https://docs.frends.com/docs/frends-6.2.0/frends-development/frends-platform-api.md): Manage and operate your Frends Tenant using API.
+* [Dashboard & Monitoring](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/dashboard-and-monitoring.md): Overview of the analytics features in Frends.
+* [Dashboard](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/dashboard-and-monitoring/dashboard.md): Central monitoring view in Frends Control Panel.
+* [Process Instances](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/dashboard-and-monitoring/process-instances.md): Logging for the Process executions.
+* [Error handling & Monitoring](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/dashboard-and-monitoring/error-handling-and-monitoring.md): How to handle errors in Frends Processes.
+* [System Logs](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/dashboard-and-monitoring/system-logs.md): System logs from the Agent and the containing operating system.
+* [AI Audit Logs](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/dashboard-and-monitoring/ai-audit-logs.md): Monitor the use of AI in your Frends Tenant.
+* [User Management](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/user-management.md): Frends includes RBAC user management capabilities.
+* [Task Management](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/task-management.md): Managing Tasks in your Frends Tenant.
+* [Integration Lifecycle](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/integration-lifecycle.md): CI/CD is built in to Frends.
+* [Deployment Pipeline](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/integration-lifecycle/deployment-pipeline.md): Moving Processes from one phase to another.
+* [Environment Variables](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/integration-lifecycle/environment-variables.md): Global values that allow easy deployment between Environments.
+* [Version Control](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/integration-lifecycle/version-control.md): Traceability and backtrackability for your content in Frends.
+* [Maintenance & Support](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/maintenance-and-support.md): Frends services are constantly being monitored and taken care of.
+* [Recovery from Disaster](https://docs.frends.com/docs/frends-6.2.0/management-and-operations/maintenance-and-support/recovery-from-disaster.md): How your services are recovered after a disastrous event.
+* [Frends Runtime Environment](https://docs.frends.com/docs/frends-6.2.0/hybrid-integration-architecture/frends-runtime.md): How different parts of Frends act together to execute Processes.
+* [Process Execution Model](https://docs.frends.com/docs/frends-6.2.0/hybrid-integration-architecture/process-execution-model.md): How are integrations executed on Frends.
+* [Deployment Models](https://docs.frends.com/docs/frends-6.2.0/hybrid-integration-architecture/deployment-models.md): You can deploy your Frends installation in most ways possible.
+* [Scalability](https://docs.frends.com/docs/frends-6.2.0/hybrid-integration-architecture/scalability.md): Frends can do both wide and tall.
+* [High Availability](https://docs.frends.com/docs/frends-6.2.0/hybrid-integration-architecture/high-availability.md): HA configuration ensures your services stay available.
+* [Technologies](https://docs.frends.com/docs/frends-6.2.0/hybrid-integration-architecture/technologies.md): Frends is built on Azure Cloud and .NET platform.
+* [Integration Security](https://docs.frends.com/docs/frends-6.2.0/security/integration-security.md): Securing your integrations on Frends Platform.
+* [Compliance](https://docs.frends.com/docs/frends-6.2.0/security/compliance.md): Frends is built to be compliant at foundational level.
+* [API Security Features](https://docs.frends.com/docs/frends-6.2.0/security/api-security-features.md): Frends APIs are built with ease of use and security in mind.
+* [Firewall Management](https://docs.frends.com/docs/frends-6.2.0/security/firewall-management.md): Manage access to your Frends for each Agent.
+* [Access Control](https://docs.frends.com/docs/frends-6.2.0/security/access-control.md): Give access to only those with a need.
+* [Data Encryption](https://docs.frends.com/docs/frends-6.2.0/security/data-encryption.md): Your data is protected with us.
+* [AI Trust & Transparency](https://docs.frends.com/docs/frends-6.2.0/security/ai-trust-and-transparency.md): Trust is built in with the Frends.
+
+- [Welcome](https://docs.frends.com/docs/frends-6.1.0/welcome.md)
+- [Getting Started](https://docs.frends.com/docs/frends-6.1.0/get-started/getting-started-guide.md): How to get started with Frends, regardless of your role or task.
+- [Integration Development](https://docs.frends.com/docs/frends-6.1.0/get-started/getting-started-guide/integration-development.md): How to create, deploy and test integrations with Frends.
+- [Integration Development, Part 2](https://docs.frends.com/docs/frends-6.1.0/get-started/getting-started-guide/integration-development-part-2.md): Next part for Integration Development path.
+- [Managing Integration Platform & Data](https://docs.frends.com/docs/frends-6.1.0/get-started/getting-started-guide/managing-integration-platform-and-data.md): How to check what is happening in your Frends environment.
+- [Managing integrations, Part 2](https://docs.frends.com/docs/frends-6.1.0/get-started/getting-started-guide/managing-integrations-part-2.md): Next part for Integration Management path.
+- [Supporting Integrations](https://docs.frends.com/docs/frends-6.1.0/get-started/getting-started-guide/supporting-integrations.md): Received a support ticket about Frends and no idea how to continue? Start here.
+- [Frends Glossary](https://docs.frends.com/docs/frends-6.1.0/get-started/frends-glossary.md): All the terms Frends uses, and what they mean.
+- [Frends Highlights](https://docs.frends.com/docs/frends-6.1.0/get-started/frends-highlights.md): Get familiar with the most popular Frends features.
+- [Help Resources](https://docs.frends.com/docs/frends-6.1.0/get-started/help-resources.md): Need help with Frends? We're here to assist!
+- [Centralized Portal](https://docs.frends.com/docs/frends-6.1.0/frends-development/centralized-portal.md): From featured content on the Start page, to Process Editor and managing your Agents, Frends Control Panel has it all.
+- [Frends Portal](https://docs.frends.com/docs/frends-6.1.0/frends-development/centralized-portal/frends-portal.md): Management for your Frends Tenants.
+- [Control Panel](https://docs.frends.com/docs/frends-6.1.0/frends-development/centralized-portal/control-panel.md): All the integration magic happens within Frends Control Panel.
+- [Integrations](https://docs.frends.com/docs/frends-6.1.0/frends-development/integrations.md): Frends is an integration platform, after all.
+- [Low-code Development](https://docs.frends.com/docs/frends-6.1.0/frends-development/integrations/low-code-development.md): We have visual process editor, enhanced with C# code.
+- [Connectors](https://docs.frends.com/docs/frends-6.1.0/frends-development/integrations/connectors.md): Tasks and triggers are the key building blocks of integrations in Frends.
+- [Reusable Content](https://docs.frends.com/docs/frends-6.1.0/frends-development/integrations/reusable-content.md): Keeping yourself DRY makes things more simple.
+- [Templates](https://docs.frends.com/docs/frends-6.1.0/frends-development/integrations/templates.md): Starting point for your own customizations.
+- [API Management](https://docs.frends.com/docs/frends-6.1.0/frends-development/api-management.md): Creating and managing APIs has never been easier.
+- [API Specification](https://docs.frends.com/docs/frends-6.1.0/frends-development/api-management/api-specification.md): Creating an API is as easy as defining the OpenAPI specification.
+- [Passthrough APIs](https://docs.frends.com/docs/frends-6.1.0/frends-development/api-management/passthrough-apis.md): Coherent API endpoints without extra fluff.
+- [API Policies](https://docs.frends.com/docs/frends-6.1.0/frends-development/api-management/api-policies.md): Authentication and logging rules for your API endpoints.
+- [API Monitoring](https://docs.frends.com/docs/frends-6.1.0/frends-development/api-management/api-monitoring.md): Monitor all the connections to your Tenant.
+- [API Portal](https://docs.frends.com/docs/frends-6.1.0/frends-development/api-management/api-portal.md): Effortlessly create and publish your API docs.
+- [AI features](https://docs.frends.com/docs/frends-6.1.0/frends-development/ai-features.md): In Frends, AI is not an afterthought.
+- [AI Assisted Development](https://docs.frends.com/docs/frends-6.1.0/frends-development/ai-features/ai-assisted-development.md): AI in Frends will help you with configuring Tasks as well as create code.
+- [Documentation Generation](https://docs.frends.com/docs/frends-6.1.0/frends-development/ai-features/documentation-generation.md): Automate the least favorite task of all development with AI.
+- [Intelligent AI Connector](https://docs.frends.com/docs/frends-6.1.0/frends-development/ai-features/intelligent-ai-connector.md): Allowing AI to participate in your Processes.
+- [Frends Platform API](https://docs.frends.com/docs/frends-6.1.0/frends-development/frends-platform-api.md): Manage and operate your Frends Tenant using API.
+- [Dashboard & Monitoring](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/dashboard-and-monitoring.md): Overview of the analytics features in Frends.
+- [Dashboard](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/dashboard-and-monitoring/dashboard.md): Central monitoring view in Frends Control Panel.
+- [Process Instances](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/dashboard-and-monitoring/process-instances.md): Logging for the Process executions.
+- [Error handling & Monitoring](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/dashboard-and-monitoring/error-handling-and-monitoring.md): How to handle errors in Frends Processes.
+- [System Logs](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/dashboard-and-monitoring/system-logs.md): System logs from the Agent and the containing operating system.
+- [AI Audit Logs](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/dashboard-and-monitoring/ai-audit-logs.md): Monitor the use of AI in your Frends Tenant.
+- [User Management](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/user-management.md): Frends includes RBAC user management capabilities.
+- [Task Management](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/task-management.md): Managing Tasks in your Frends Tenant.
+- [Integration Lifecycle](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/integration-lifecycle.md): CI/CD is built in to Frends.
+- [Environments](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/integration-lifecycle/environments.md)
+- [Version Control](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/integration-lifecycle/version-control.md): Traceability and backtrackability for your content in Frends.
+- [Environment Variables](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/integration-lifecycle/environment-variables.md): Global values that allow easy deployment between Environments.
+- [Maintenance & Support](https://docs.frends.com/docs/frends-6.1.0/management-and-operations/maintenance-and-support.md): Frends services are constantly being monitored and taken care of.
+- [Frends Runtime](https://docs.frends.com/docs/frends-6.1.0/hybrid-integration-architecture/frends-runtime.md): Agents performing the Processes you created.
+- [Deployment Models](https://docs.frends.com/docs/frends-6.1.0/hybrid-integration-architecture/deployment-models.md): You can deploy your Frends installation in most ways possible.
+- [Scalability](https://docs.frends.com/docs/frends-6.1.0/hybrid-integration-architecture/scalability.md): Frends can do both wide and tall.
+- [High Availability](https://docs.frends.com/docs/frends-6.1.0/hybrid-integration-architecture/high-availability.md): HA configuration ensures your services stay available.
+- [Technologies](https://docs.frends.com/docs/frends-6.1.0/hybrid-integration-architecture/technologies.md): Frends is built on Azure Cloud and .NET platform.
+- [Integration Security](https://docs.frends.com/docs/frends-6.1.0/security/integration-security.md): Securing your integrations on Frends Platform.
+- [Compliance](https://docs.frends.com/docs/frends-6.1.0/security/compliance.md): Frends is built to be compliant at foundational level.
+- [API Security Features](https://docs.frends.com/docs/frends-6.1.0/security/api-security-features.md): Frends APIs are built with ease of use and security in mind.
+- [Firewall Management](https://docs.frends.com/docs/frends-6.1.0/security/firewall-management.md): Manage access to your Frends for each Agent.
+- [Access Control](https://docs.frends.com/docs/frends-6.1.0/security/access-control.md): Give access to only those with a need.
+- [Data Encryption](https://docs.frends.com/docs/frends-6.1.0/security/data-encryption.md): Your data is protected with us.
+- [AI Trust & Transparency](https://docs.frends.com/docs/frends-6.1.0/security/ai-trust-and-transparency.md): Trust is built in with the Frends.
+
+## Guides
+
+- [Guides](https://docs.frends.com/guides/guides.md)
+- [Frends Best Practices Collection](https://docs.frends.com/guides/general/frends-best-practices-collection.md): Collection of various best practices to be used in Frends.
+- [Common Errors & FAQ](https://docs.frends.com/guides/general/common-errors-and-faq.md): Common questions and error messages in Frends usage.
+- [Overview](https://docs.frends.com/guides/learning-paths/overview.md): How the Frends learning paths and certifications work.
+- [Fundamentals](https://docs.frends.com/guides/learning-paths/fundamentals.md): Getting started with Frends? You're in the right place.
+- [Integration Development](https://docs.frends.com/guides/learning-paths/integration-development.md): How to get better as a Frends Developer.
+- [Operations & Management](https://docs.frends.com/guides/learning-paths/operations-and-management.md): How to work with Frends as your Integration Platform.
+- [Technical & Security Topics](https://docs.frends.com/guides/learning-paths/technical-and-security-topics.md): Get familiar with how Frends works behind the scenes.
+- [Master of Frends](https://docs.frends.com/guides/learning-paths/master-of-frends.md): Take a step towards seniority in Frends knowledge with this path.
+- [How to create integrations](https://docs.frends.com/guides/development/how-to-create-integrations.md): Guide to creating Processes with Frends.
+- [Creating a Subprocess](https://docs.frends.com/guides/development/creating-a-subprocess.md): How to create a reusable part to your Processes.
+- [How to Manually Execute a Process](https://docs.frends.com/guides/development/how-to-manually-execute-a-process.md): Useful for integration testing as well as for manually performing tasks.
+- [How to Test Processes and Tasks](https://docs.frends.com/guides/development/how-to-test-processes-and-tasks.md): How to run single Tasks and Processes for testing.
+- [Using Expressions in Frends Processes](https://docs.frends.com/guides/development/using-expressions-in-frends-processes.md): Adding simple C# code and reference values to your Processes.
+- [Iteration in Frends Processes](https://docs.frends.com/guides/development/iteration-in-frends-processes.md): How to iterate using While, ForEach and Code Task shapes.
+- [How to create and use Environment Variables](https://docs.frends.com/guides/development/how-to-create-and-use-environment-variables.md): How to create Environment Variables in Frends.
+- [Creating a Process with HTTP Trigger](https://docs.frends.com/guides/development/creating-a-process-with-http-trigger.md): HTTP Trigger is the alternative to full API.
+- [How to listen for SFTP folder changes](https://docs.frends.com/guides/development/how-to-listen-for-sftp-folder-changes.md): Using Conditional Trigger to poll for SFTP directory.
+- [How to handle errors in Frends Processes](https://docs.frends.com/guides/development/how-to-handle-errors-in-frends-processes.md): Collection of methods to properly handle errors in Processes.
+- [Handling Files in Frends](https://docs.frends.com/guides/development/handling-files-in-frends.md): How to handle incoming and outgoing files in Frends Processes.
+- [How to Accept File Uploads & Multipart data to an API](https://docs.frends.com/guides/development/how-to-accept-file-uploads-and-multipart-data-to-an-api.md): Receiving binary and multipart data to your API or HTTP Trigger.
+- [How to work with SOAP in Frends](https://docs.frends.com/guides/development/how-to-work-with-soap-in-frends.md): Sending and receiving SOAP messages with Frends.
+- [Using DMN Task in Frends Processes](https://docs.frends.com/guides/development/using-dmn-task-in-frends-processes.md): How to simplify decision trees with DMN Task.
+- [Frends Process Optimization](https://docs.frends.com/guides/development/frends-process-optimization.md): How to optimize performance in Frends Processes.
+- [How to use on-premise Ollama with AI Connector](https://docs.frends.com/guides/ai-features/how-to-use-on-premise-ollama-with-ai-connector.md): Using your own Ollama installation to perform operations with AI.
+- [How to use Azure AI Inference service with AI Connector](https://docs.frends.com/guides/ai-features/how-to-use-azure-ai-inference-service-with-ai-connector.md): Using your own Azure AI Inference service and API.
+- [Using Fine-Tuned Models with Azure AI Inference in Frends](https://docs.frends.com/guides/ai-features/using-fine-tuned-models-with-azure-ai-inference-in-frends.md): How to use models tuned specifically for your use case.
+- [Creating semi-deterministic AI Process](https://docs.frends.com/guides/ai-features/creating-semi-deterministic-ai-process.md): How to use AI reasoning with control flow from a Process.
+- [How to create Reusable AI Agents as Frends Subprocesses](https://docs.frends.com/guides/ai-features/how-to-create-reusable-ai-agents-as-frends-subprocesses.md): Reusable AI Agents as part of your Processes.
+- [How to implement a simple RAG in Frends](https://docs.frends.com/guides/ai-features/how-to-implement-a-simple-rag-in-frends.md): Retrieval-augmented generation at its simplest is a standard Frends Process with AI.
+- [How to tokenize data for AI](https://docs.frends.com/guides/ai-features/how-to-tokenize-data-for-ai.md): Using regexes and field value replacement for structured data to securely use AI.
+- [How to provide data to AI Connector in Frends](https://docs.frends.com/guides/ai-features/how-to-provide-data-to-ai-connector-in-frends.md): AI Connector will only receive the data you provide.
+- [Deploying integrations](https://docs.frends.com/guides/integration-management/deploying-integrations.md): How to deploy a Process to another Agent Group.
+- [How to perform actions to multiple Processes](https://docs.frends.com/guides/integration-management/how-to-perform-actions-to-multiple-processes.md): You can manage more than one Process at a time.
+- [How to view integration logs](https://docs.frends.com/guides/integration-management/how-to-view-integration-logs.md): Frends includes powerful view to see what happened during a specific integration flow.
+- [How to use Dashboard](https://docs.frends.com/guides/integration-management/how-to-use-dashboard.md): Centralized monitoring to your Frends Tenant.
+- [Tagging your Processes](https://docs.frends.com/guides/integration-management/tagging-your-processes.md): Categorizing Processes to be a part of a whole.
+- [How to access Agent logs](https://docs.frends.com/guides/integration-management/how-to-access-agent-logs.md): Frends Agents log details about what is happening in the system.
+- [How to create and manage users](https://docs.frends.com/guides/integration-management/how-to-create-and-manage-users.md): User administration within Frends Tenant provides RBAC capabilities.
+- [How to create Grafana Dashboard for Frends](https://docs.frends.com/guides/integration-management/how-to-create-grafana-dashboard-for-frends.md): Creating custom Dashboards from your Frends Tenant.
+- [How to visualize Frends telemetry with OpenTelemetry](https://docs.frends.com/guides/integration-management/how-to-visualize-frends-telemetry-with-opentelemetry.md): Frends Agent can publish OpenTelemetry data for your use.
+- [How to create an API with Frends](https://docs.frends.com/guides/api-management/how-to-create-an-api-with-frends.md): Core feature of Frends is API Management, after all.
+- [Linking a Process to API Endpoint](https://docs.frends.com/guides/api-management/linking-a-process-to-api-endpoint.md): Adding functionality to the created API.
+- [Setting up API Policies](https://docs.frends.com/guides/api-management/setting-up-api-policies.md): How to set up authentication and logging policy for your API.
+- [Deploying an API](https://docs.frends.com/guides/api-management/deploying-an-api.md): How publish the API for testing and production use.
+- [How to test Frends API](https://docs.frends.com/guides/api-management/how-to-test-frends-api.md): Frends includes UI for checking and calling your APIs.
+- [Creating Passthrough APIs in Frends](https://docs.frends.com/guides/api-management/creating-passthrough-apis-in-frends.md): Combine external API handlers with API Processes under the same URL.
+- [How to create and use API keys in Frends](https://docs.frends.com/guides/api-management/how-to-create-and-use-api-keys-in-frends.md): The easiest authentication method to use in Frends for APIs.
+- [Securing the API Specification UI](https://docs.frends.com/guides/api-management/securing-the-api-specification-ui.md): How to require authentication for accessing your API's specification.
+- [How to use Basic Authentication for APIs in Frends](https://docs.frends.com/guides/api-management/how-to-use-basic-authentication-for-apis-in-frends.md): Both managed identities as well as custom user accounts can be used.
+- [How to use Private Applications for authenticating to Frends API](https://docs.frends.com/guides/api-management/how-to-use-private-applications-for-authenticating-to-frends-api.md): Self-contained authentication tokens to use in API authentication.
+- [Setting up Implicit OAuth flow for Frends APIs](https://docs.frends.com/guides/api-management/setting-up-implicit-oauth-flow-for-frends-apis.md): How to use implicit OAuth 2.0 flow for your APIs in Frends.
+- [How to use OAuth Client Credentials for Frends API](https://docs.frends.com/guides/api-management/how-to-use-oauth-client-credentials-for-frends-api.md): Setting up OAuth Client Credentials for your APIs in Frends.
+- [How to set up Entra ID SSO for Frends](https://docs.frends.com/guides/setup-and-installation/how-to-set-up-entra-id-sso-for-frends.md): How to set up your own Entra ID for logging in to Frends.
+- [Creating new Environments & Agent Groups](https://docs.frends.com/guides/setup-and-installation/creating-new-environments-and-agent-groups.md): Environments are logical containers to tie together Agent Groups.
+- [How to configure an Agent in Frends](https://docs.frends.com/guides/setup-and-installation/how-to-configure-an-agent-in-frends.md): Settings for Frends Agents in your Frends Tenant.
+- [Installing Frends Agent](https://docs.frends.com/guides/setup-and-installation/installing-frends-agent.md): How to install Frends Agent on different platforms.
+- [Configuring SSL Certificates for Frends Agent](https://docs.frends.com/guides/setup-and-installation/configuring-ssl-certificates-for-frends-agent.md): How to use your own SSL certificates for your Frends.
+- [Updating Agent Certificates](https://docs.frends.com/guides/setup-and-installation/updating-agent-certificates.md): How to maintain TLS/SSL certificates on Agents.
+- [How to set up High Availability configuration](https://docs.frends.com/guides/setup-and-installation/how-to-set-up-high-availability-configuration.md): Guidelines for setting up HA configuration for extra performance and availability.
+- [Performing Frends version update](https://docs.frends.com/guides/setup-and-installation/performing-frends-version-update.md): How to keep your Frends up to date and receive new features.
+- [Updating from Legacy Frends](https://docs.frends.com/guides/setup-and-installation/updating-from-legacy-frends.md): Migrating to .NET 8 and cross-platform Agents for the latest Frends versions.
+- [Options for external logging](https://docs.frends.com/guides/setup-and-installation/options-for-external-logging.md): Options exist for obtaining and storing Process logs outside Frends.
+- [Changing the default Development Agent](https://docs.frends.com/guides/setup-and-installation/changing-the-default-development-agent.md): How to replace the default development Agent with another Agent.
+- [Collecting crash dump from Frends Agent](https://docs.frends.com/guides/setup-and-installation/collecting-crash-dump-from-frends-agent.md): Obtaining more information in case of an Agent crashing.
+
+## Reference
+
+- [Reference](https://docs.frends.com/reference/reference.md)
+- [Process Editor](https://docs.frends.com/reference/process-development/process-editor.md): UI for creating Processes and Subprocesses.
+- [Process Instance List](https://docs.frends.com/reference/process-development/process-instance-list.md): Monitoring for Process executions.
+- [Process](https://docs.frends.com/reference/process-development/process.md): Main integration flow in Frends.
+- [Subprocess](https://docs.frends.com/reference/process-development/subprocess.md): Reusable integration flow to be used within Processes.
+- [Template](https://docs.frends.com/reference/process-development/template.md): Base for reusing and distributing Processes and ideas.
+- [C# in Frends](https://docs.frends.com/reference/process-development/c-in-frends.md): How to use C# programming in Frends.
+- [Available Namespaces](https://docs.frends.com/reference/process-development/c-in-frends/available-namespaces.md): Libraries and classes available to use in Frends Processes.
+- [JSON in Frends](https://docs.frends.com/reference/process-development/json-in-frends.md): JSON is utilized a lot in Frends Processes.
+- [Reference Values](https://docs.frends.com/reference/process-development/reference-values.md): Variables from different sources in Frends Processes.
+- [Handlebars](https://docs.frends.com/reference/process-development/handlebars.md): Low-code feature in Frends.
+- [Shape](https://docs.frends.com/reference/shapes/shape.md): Any visualized element in Frends process.
+- [Event Shapes](https://docs.frends.com/reference/shapes/event-shapes.md): When something happens or needs to happen.
+- [Trigger](https://docs.frends.com/reference/shapes/event-shapes/trigger.md): Starting condition for a Frends Process.
+- [Return](https://docs.frends.com/reference/shapes/event-shapes/return.md): End element of a Process.
+- [Intermediate Return](https://docs.frends.com/reference/shapes/event-shapes/intermediate-return.md): Return a response and continue processing asynchronously.
+- [Throw](https://docs.frends.com/reference/shapes/event-shapes/throw.md): Interrupting Process in case something almost unexpected happens.
+- [Catch](https://docs.frends.com/reference/shapes/event-shapes/catch.md): Catching the expected or unexpected errors thrown within the Process.
+- [Decision Shapes](https://docs.frends.com/reference/shapes/decision-shapes.md): Conditionals in Frends processes.
+- [Exclusive Decision](https://docs.frends.com/reference/shapes/decision-shapes/exclusive-decision.md): If statement in a process.
+- [Inclusive Decision](https://docs.frends.com/reference/shapes/decision-shapes/inclusive-decision.md): Choose one or more paths based on conditions.
+- [Activity Shapes](https://docs.frends.com/reference/shapes/activity-shapes.md): Performing all the logic for you in processes.
+- [Task](https://docs.frends.com/reference/shapes/activity-shapes/task.md): Bread and butter of Frends process functionality.
+- [Call Subprocess](https://docs.frends.com/reference/shapes/activity-shapes/call-subprocess.md): Reusable functionality within Frends.
+- [Assign Variable](https://docs.frends.com/reference/shapes/activity-shapes/assign-variable.md): C# oneliner.
+- [Code Task](https://docs.frends.com/reference/shapes/activity-shapes/code-task.md): Multitalent shape of Frends, adding the 'code' into 'low-code development'.
+- [Shared State Task](https://docs.frends.com/reference/shapes/activity-shapes/shared-state-task.md): Internal temporary value storage in Frends.
+- [DMN Task](https://docs.frends.com/reference/shapes/activity-shapes/dmn-task.md): Handling complex business logic in one shape.
+- [AI Connector](https://docs.frends.com/reference/shapes/activity-shapes/ai-connector.md): Including AI to your Processes has never been simpler.
+- [Scope Shapes](https://docs.frends.com/reference/shapes/scope-shapes.md): Curly brackets and related scopes.
+- [Scope](https://docs.frends.com/reference/shapes/scope-shapes/scope.md): Scoping your process is important for resource and error management.
+- [Foreach](https://docs.frends.com/reference/shapes/scope-shapes/foreach.md): Iterate all elements of a container object.
+- [While](https://docs.frends.com/reference/shapes/scope-shapes/while.md): Iterate while condition is true.
+- [Long Running Process Shapes](https://docs.frends.com/reference/shapes/long-running-process-shapes.md): Shapes for pausing and resuming a Process.
+- [Checkpoint](https://docs.frends.com/reference/shapes/long-running-process-shapes/checkpoint.md): Store the state of your Process and dehydrate it.
+- [Scheduled Resume](https://docs.frends.com/reference/shapes/long-running-process-shapes/scheduled-resume.md): Wait until the specified time, without consuming resources.
+- [Signal Resume](https://docs.frends.com/reference/shapes/long-running-process-shapes/signal-resume.md): Remotely signal another Process to resume from dehydration.
+- [Artifact Shapes](https://docs.frends.com/reference/shapes/artifact-shapes.md): Self-documenting processes.
+- [Data Object Reference](https://docs.frends.com/reference/shapes/artifact-shapes/data-object-reference.md): Documentational shape to make data flows visible.
+- [Data Store Reference](https://docs.frends.com/reference/shapes/artifact-shapes/data-store-reference.md): Documentational shape to make data flows visible.
+- [Group](https://docs.frends.com/reference/shapes/artifact-shapes/group.md): Documentational shape to logically tie things together.
+- [Text Annotation](https://docs.frends.com/reference/shapes/artifact-shapes/text-annotation.md): Documentational shape to add context to elements.
+- [Sequence Flow](https://docs.frends.com/reference/shapes/sequence-flow.md): The arrows connecting shapes together to make a process.
+- [Manual Trigger](https://docs.frends.com/reference/triggers/manual-trigger.md): Enables manual execution for Processes.
+- [File Trigger](https://docs.frends.com/reference/triggers/file-trigger.md): Monitor file changes with your Processes.
+- [Schedule Trigger](https://docs.frends.com/reference/triggers/schedule-trigger.md): Running Processes repeatedly has never been easier.
+- [Conditional Trigger](https://docs.frends.com/reference/triggers/conditional-trigger.md): Look here for more complex criteria to start a Process.
+- [HTTP Trigger](https://docs.frends.com/reference/triggers/http-trigger.md): Simple handling of HTTP requests in Frends.
+- [API Trigger](https://docs.frends.com/reference/triggers/api-trigger.md): Connect your Processes to fullblown APIs.
+- [AMQP Trigger](https://docs.frends.com/reference/triggers/amqp-trigger.md): Running Processes in order using Message Queues.
+- [Service Bus Trigger](https://docs.frends.com/reference/triggers/service-bus-trigger.md): Listening for Azure Service Bus messages.
+- [RabbitMQ Trigger](https://docs.frends.com/reference/triggers/rabbitmq-trigger.md): Alternative to Service Bus and AMQP queues.
+- [Azure Event Hub Trigger](https://docs.frends.com/reference/triggers/azure-event-hub-trigger.md): Listen to messages from Azure Event Hub.
+- [TCP Trigger](https://docs.frends.com/reference/triggers/tcp-trigger.md): Listen for raw TCP connections coming to Frends.
+- [MCP Trigger](https://docs.frends.com/reference/triggers/mcp-trigger.md): Turn Processes into MCP Tools for Agentic AI.
+- [API Management](https://docs.frends.com/reference/api-management/api-management.md): Main view for defining APIs in Frends.
+- [API Specifications](https://docs.frends.com/reference/api-management/api-specifications.md): API Editor and OpenAPI specification details in Frends.
+- [Passthrough APIs](https://docs.frends.com/reference/api-management/passthrough-apis.md): Passing requests as-is to another URL.
+- [API Policies](https://docs.frends.com/reference/api-management/api-policies.md): Authentication and logging settings for the APIs published from Frends.
+- [API Monitoring](https://docs.frends.com/reference/api-management/api-monitoring.md)
+- [Monitoring Rules](https://docs.frends.com/reference/administration/monitoring-rules.md): Monitoring Processes en masse.
+- [Role-Based Access Control](https://docs.frends.com/reference/administration/role-based-access-control.md): Details on how to fine tune access to your Frends Tenant.
+- [Process Log Settings](https://docs.frends.com/reference/administration/process-log-settings.md): Settings available for adjusting Process logging.
+- [Introduction](https://docs.frends.com/reference/frends-platform-api/introduction.md): Manage and operate your Frends Tenant using API.
+- [How to enable Frends Platform API](https://docs.frends.com/reference/frends-platform-api/how-to-enable-frends-platform-api.md): It's not usable out of the box.
+- [Platform API Reference](https://docs.frends.com/reference/frends-platform-api/platform-api-reference.md): All the contents for the Platform API.
+- [Agent Groups](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/agent-groups.md)
+- [Agents](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/agents.md)
+- [Api Access Management](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/api-access-management.md)
+- [Api Policies](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/api-policies.md)
+- [Api Specifications](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/api-specifications.md)
+- [Environments](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/environments.md)
+- [Environment Variables](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/environment-variables.md)
+- [Frends Ai Endpoint Builder](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/frends-ai-endpoint-builder.md)
+- [Private Application](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/private-application.md)
+- [Process Deployments](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/process-deployments.md)
+- [Processes](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/processes.md)
+- [Process Instances](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/process-instances.md)
+- [Process Templates](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/process-templates.md)
+- [Tags](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/tags.md)
+- [Models](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/models.md)
+- [Audit Trail Log API](https://docs.frends.com/reference/frends-platform-api/audit-trail-log-api.md): Additional audit logging feature available in Frends Platform API.
+- [Agent application settings](https://docs.frends.com/reference/architecture/agent-application-settings.md): Additional settings available for the cross platform Agents.
+- [Agent storage availability](https://docs.frends.com/reference/architecture/agent-storage-availability.md): What storage is directly accessible by Agents.
+- [Technical details for Frends Agent](https://docs.frends.com/reference/architecture/technical-details-for-frends-agent.md): This document describes a typical Frends Agent installation details.
+- [Agent connectivity requirements](https://docs.frends.com/reference/architecture/agent-connectivity-requirements.md): What openings does a Frends Agent need in firewall.
+- [Frends Data Flowcharts](https://docs.frends.com/reference/architecture/frends-data-flowcharts.md): How data is transferred between elements in Frends Architecture.
+
+* [Reference](https://docs.frends.com/reference/frends-6.2.0/reference.md)
+* [Process Editor](https://docs.frends.com/reference/frends-6.2.0/process-development/process-editor.md): UI for creating Processes and Subprocesses.
+* [Process](https://docs.frends.com/reference/frends-6.2.0/process-development/process.md): Main integration flow in Frends.
+* [Subprocess](https://docs.frends.com/reference/frends-6.2.0/process-development/subprocess.md): Reusable integration flow to be used within Processes.
+* [Template](https://docs.frends.com/reference/frends-6.2.0/process-development/template.md): Base for reusing and distributing Processes and ideas.
+* [C# in Frends](https://docs.frends.com/reference/frends-6.2.0/process-development/c-in-frends.md): How to use C# programming in Frends.
+* [Available Namespaces](https://docs.frends.com/reference/frends-6.2.0/process-development/c-in-frends/available-namespaces.md): Libraries and classes available to use in Frends Processes.
+* [JSON in Frends](https://docs.frends.com/reference/frends-6.2.0/process-development/json-in-frends.md): JSON is utilized a lot in Frends Processes.
+* [Reference Values](https://docs.frends.com/reference/frends-6.2.0/process-development/reference-values.md): Variables from different sources in Frends Processes.
+* [Shape](https://docs.frends.com/reference/frends-6.2.0/shapes/shape.md): Any visualized element in Frends process.
+* [Event Shapes](https://docs.frends.com/reference/frends-6.2.0/shapes/event-shapes.md): When something happens or needs to happen.
+* [Trigger](https://docs.frends.com/reference/frends-6.2.0/shapes/event-shapes/trigger.md): Starting condition for a Frends Process.
+* [Return](https://docs.frends.com/reference/frends-6.2.0/shapes/event-shapes/return.md): End element of a Process.
+* [Intermediate Return](https://docs.frends.com/reference/frends-6.2.0/shapes/event-shapes/intermediate-return.md): Return a response and continue processing asynchronously.
+* [Throw](https://docs.frends.com/reference/frends-6.2.0/shapes/event-shapes/throw.md): Interrupting Process in case something almost unexpected happens.
+* [Catch](https://docs.frends.com/reference/frends-6.2.0/shapes/event-shapes/catch.md): Catching the expected or unexpected errors thrown within the Process.
+* [Decision Shapes](https://docs.frends.com/reference/frends-6.2.0/shapes/decision-shapes.md): Conditionals in Frends processes.
+* [Exclusive Decision](https://docs.frends.com/reference/frends-6.2.0/shapes/decision-shapes/exclusive-decision.md): If statement in a process.
+* [Inclusive Decision](https://docs.frends.com/reference/frends-6.2.0/shapes/decision-shapes/inclusive-decision.md): Choose one or more paths based on conditions.
+* [Activity Shapes](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes.md): Performing all the logic for you in processes.
+* [Task](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/task.md): Bread and butter of Frends process functionality.
+* [Call Subprocess](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/call-subprocess.md): Reusable functionality within Frends.
+* [Assign Variable](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/assign-variable.md): C# oneliner.
+* [Code Task](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/code-task.md): Multitalent shape of Frends, adding the 'code' into 'low-code development'.
+* [Shared State Task](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/shared-state-task.md): Internal temporary value storage in Frends.
+* [DMN Task](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/dmn-task.md): Handling complex business logic in one shape.
+* [AI Connector](https://docs.frends.com/reference/frends-6.2.0/shapes/activity-shapes/ai-connector.md): Including AI to your Processes has never been simpler.
+* [Scope Shapes](https://docs.frends.com/reference/frends-6.2.0/shapes/scope-shapes.md): Curly brackets and related scopes.
+* [Scope](https://docs.frends.com/reference/frends-6.2.0/shapes/scope-shapes/scope.md): Scoping your process is important for resource and error management.
+* [Foreach](https://docs.frends.com/reference/frends-6.2.0/shapes/scope-shapes/foreach.md): Iterate all elements of a container object.
+* [While](https://docs.frends.com/reference/frends-6.2.0/shapes/scope-shapes/while.md): Iterate while condition is true.
+* [Long Running Process Shapes](https://docs.frends.com/reference/frends-6.2.0/shapes/long-running-process-shapes.md): Shapes for pausing and resuming a Process.
+* [Checkpoint](https://docs.frends.com/reference/frends-6.2.0/shapes/long-running-process-shapes/checkpoint.md): Store the state of your Process and dehydrate it.
+* [Scheduled Resume](https://docs.frends.com/reference/frends-6.2.0/shapes/long-running-process-shapes/scheduled-resume.md): Wait until the specified time, without consuming resources.
+* [Signal Resume](https://docs.frends.com/reference/frends-6.2.0/shapes/long-running-process-shapes/signal-resume.md): Remotely signal another Process to resume from dehydration.
+* [Artifact Shapes](https://docs.frends.com/reference/frends-6.2.0/shapes/artifact-shapes.md): Self-documenting processes.
+* [Data Object Reference](https://docs.frends.com/reference/frends-6.2.0/shapes/artifact-shapes/data-object-reference.md): Documentational shape to make data flows visible.
+* [Data Store Reference](https://docs.frends.com/reference/frends-6.2.0/shapes/artifact-shapes/data-store-reference.md): Documentational shape to make data flows visible.
+* [Group](https://docs.frends.com/reference/frends-6.2.0/shapes/artifact-shapes/group.md): Documentational shape to logically tie things together.
+* [Text Annotation](https://docs.frends.com/reference/frends-6.2.0/shapes/artifact-shapes/text-annotation.md): Documentational shape to add context to elements.
+* [Sequence Flow](https://docs.frends.com/reference/frends-6.2.0/shapes/sequence-flow.md): The arrows connecting shapes together to make a process.
+* [Manual Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/manual-trigger.md): Enables manual execution for Processes.
+* [File Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/file-trigger.md): Monitor file changes with your Processes.
+* [Schedule Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/schedule-trigger.md): Running Processes repeatedly has never been easier.
+* [Conditional Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/conditional-trigger.md): Look here for more complex criteria to start a Process.
+* [HTTP Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/http-trigger.md): Simple handling of HTTP requests in Frends.
+* [API Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/api-trigger.md): Connect your Processes to fullblown APIs.
+* [AMQP Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/amqp-trigger.md): Running Processes in order using Message Queues.
+* [Service Bus Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/service-bus-trigger.md): Listening for Azure Service Bus messages.
+* [RabbitMQ Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/rabbitmq-trigger.md): Alternative to Service Bus and AMQP queues.
+* [Azure Event Hub Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/azure-event-hub-trigger.md): Listen to messages from Azure Event Hub.
+* [TCP Trigger](https://docs.frends.com/reference/frends-6.2.0/triggers/tcp-trigger.md): Listen for raw TCP connections coming to Frends.
+* [API Management](https://docs.frends.com/reference/frends-6.2.0/api-management/api-management.md): Main view for defining APIs in Frends.
+* [API Specifications](https://docs.frends.com/reference/frends-6.2.0/api-management/api-specifications.md): API Editor and OpenAPI specification details in Frends.
+* [Passthrough APIs](https://docs.frends.com/reference/frends-6.2.0/api-management/passthrough-apis.md): Passing requests as-is to another URL.
+* [API Policies](https://docs.frends.com/reference/frends-6.2.0/api-management/api-policies.md): Authentication and logging settings for the APIs published from Frends.
+* [API Monitoring](https://docs.frends.com/reference/frends-6.2.0/api-management/api-monitoring.md)
+* [Monitoring Rules](https://docs.frends.com/reference/frends-6.2.0/administration/monitoring-rules.md): Monitoring Processes en masse.
+* [Role-Based Access Control](https://docs.frends.com/reference/frends-6.2.0/administration/role-based-access-control.md): Details on how to fine tune access to your Frends Tenant.
+* [Process Log Settings](https://docs.frends.com/reference/frends-6.2.0/administration/process-log-settings.md): Settings available for adjusting Process logging.
+* [Introduction](https://docs.frends.com/reference/frends-6.2.0/frends-platform-api/introduction.md): Manage and operate your Frends Tenant using API.
+* [How to enable Frends Platform API](https://docs.frends.com/reference/frends-6.2.0/frends-platform-api/how-to-enable-frends-platform-api.md): It's not usable out of the box.
+* [Platform API Reference](https://docs.frends.com/reference/frends-6.2.0/frends-platform-api/platform-api-reference.md): All the contents for the Platform API.
+* [Audit Trail Log API](https://docs.frends.com/reference/frends-6.2.0/frends-platform-api/audit-trail-log-api.md): Additional audit logging feature available in Frends Platform API.
+* [Agent application settings](https://docs.frends.com/reference/frends-6.2.0/architecture/agent-application-settings.md): Additional settings available for the cross platform Agents.
+* [Agent storage availability](https://docs.frends.com/reference/frends-6.2.0/architecture/agent-storage-availability.md): What storage is directly accessible by Agents.
+* [Technical details for Frends Agent](https://docs.frends.com/reference/frends-6.2.0/architecture/technical-details-for-frends-agent.md): This document describes a typical Frends Agent installation details.
+* [Agent connectivity requirements](https://docs.frends.com/reference/frends-6.2.0/architecture/agent-connectivity-requirements.md): What openings does a Frends Agent need in firewall.
+* [Frends Data Flowcharts](https://docs.frends.com/reference/frends-6.2.0/architecture/frends-data-flowcharts.md): How data is transferred between elements in Frends Architecture.
+
+- [Reference](https://docs.frends.com/reference/frends-6.1.0/reference.md)
+- [Examples snippets](https://docs.frends.com/reference/frends-6.1.0/examples-snippets.md)
+- [Process](https://docs.frends.com/reference/frends-6.1.0/process-development/process.md): Main integration flow in Frends.
+- [Subprocess](https://docs.frends.com/reference/frends-6.1.0/process-development/subprocess.md): Reusable integration flow to be used within Processes.
+- [Template](https://docs.frends.com/reference/frends-6.1.0/process-development/template.md): Base for reusing and distributing Processes and ideas.
+- [C# in Frends](https://docs.frends.com/reference/frends-6.1.0/process-development/c-in-frends.md): How to use C# programming in Frends.
+- [Available Namespaces](https://docs.frends.com/reference/frends-6.1.0/process-development/c-in-frends/available-namespaces.md): Libraries and classes available to use in Frends Processes.
+- [JSON in Frends](https://docs.frends.com/reference/frends-6.1.0/process-development/json-in-frends.md): JSON is utilized a lot in Frends Processes.
+- [Shape](https://docs.frends.com/reference/frends-6.1.0/shapes/shape.md): Any visualized element in Frends process.
+- [Event Shapes](https://docs.frends.com/reference/frends-6.1.0/shapes/event-shapes.md): When something happens or needs to happen.
+- [Trigger](https://docs.frends.com/reference/frends-6.1.0/shapes/event-shapes/trigger.md): Starting condition for a Frends Process.
+- [Return](https://docs.frends.com/reference/frends-6.1.0/shapes/event-shapes/return.md): End element of a Process.
+- [Intermediate Return](https://docs.frends.com/reference/frends-6.1.0/shapes/event-shapes/intermediate-return.md): Return a response and continue processing asynchronously.
+- [Throw](https://docs.frends.com/reference/frends-6.1.0/shapes/event-shapes/throw.md): Interrupting Process in case something almost unexpected happens.
+- [Catch](https://docs.frends.com/reference/frends-6.1.0/shapes/event-shapes/catch.md): Catching the expected or unexpected errors thrown within the Process.
+- [Decision Shapes](https://docs.frends.com/reference/frends-6.1.0/shapes/decision-shapes.md): Conditionals in Frends processes.
+- [Exclusive Decision](https://docs.frends.com/reference/frends-6.1.0/shapes/decision-shapes/exclusive-decision.md): If statement in a process.
+- [Inclusive Decision](https://docs.frends.com/reference/frends-6.1.0/shapes/decision-shapes/inclusive-decision.md): Choose one or more paths based on conditions.
+- [Activity Shapes](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes.md): Performing all the logic for you in processes.
+- [Task](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/task.md): Bread and butter of Frends process functionality.
+- [Call Subprocess](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/call-subprocess.md): Reusable functionality within Frends.
+- [Assign Variable](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/assign-variable.md): C# oneliner.
+- [Code Task](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/code-task.md): Multitalent shape of Frends, adding the 'code' into 'low-code development'.
+- [Shared State Task](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/shared-state-task.md): Internal cache in Frends.
+- [DMN Task](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/dmn-task.md): Handling complex business logic in one shape.
+- [AI Connector](https://docs.frends.com/reference/frends-6.1.0/shapes/activity-shapes/ai-connector.md): Including AI to your Processes has never been simpler.
+- [Scope Shapes](https://docs.frends.com/reference/frends-6.1.0/shapes/scope-shapes.md): Curly brackets and related scopes.
+- [Scope](https://docs.frends.com/reference/frends-6.1.0/shapes/scope-shapes/scope.md): Scoping your process is important for resource and error management.
+- [Foreach](https://docs.frends.com/reference/frends-6.1.0/shapes/scope-shapes/foreach.md): Iterate all elements of a container object.
+- [While](https://docs.frends.com/reference/frends-6.1.0/shapes/scope-shapes/while.md): Iterate while condition is true.
+- [Artifact Shapes](https://docs.frends.com/reference/frends-6.1.0/shapes/artifact-shapes.md): Self-documenting processes.
+- [Data Object Reference](https://docs.frends.com/reference/frends-6.1.0/shapes/artifact-shapes/data-object-reference.md): Documentational shape to make data flows visible.
+- [Data Store Reference](https://docs.frends.com/reference/frends-6.1.0/shapes/artifact-shapes/data-store-reference.md): Documentational shape to make data flows visible.
+- [Group](https://docs.frends.com/reference/frends-6.1.0/shapes/artifact-shapes/group.md): Documentational shape to logically tie things together.
+- [Text Annotation](https://docs.frends.com/reference/frends-6.1.0/shapes/artifact-shapes/text-annotation.md): Documentational shape to add context to elements.
+- [Sequence Flow](https://docs.frends.com/reference/frends-6.1.0/shapes/sequence-flow.md): The arrows connecting shapes together to make a process.
+- [TEMPLATE: Shape doc](https://docs.frends.com/reference/frends-6.1.0/shapes/template-shape-doc.md): Short and selling description here.
+- [Web HttpRequest](https://docs.frends.com/reference/frends-6.1.0/tasks/web-httprequest.md)
+- [Manual Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/manual-trigger.md): Enables manual execution for Processes.
+- [File Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/file-trigger.md): Monitor file changes with your Processes.
+- [Schedule Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/schedule-trigger.md): Running Processes repeatedly has never been easier.
+- [Conditional Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/conditional-trigger.md): Look here for more complex criteria to start a Process.
+- [HTTP Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/http-trigger.md): Simple handling of HTTP requests in Frends.
+- [API Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/api-trigger.md): Connect your Processes to fullblown APIs.
+- [AMQP Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/amqp-trigger.md): Running Processes in order using Message Queues.
+- [Service Bus Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/service-bus-trigger.md): Listening for Azure Service Bus messages.
+- [RabbitMQ Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/rabbitmq-trigger.md): Alternative to Service Bus and AMQP queues.
+- [Azure Event Hub Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/azure-event-hub-trigger.md): Listen to messages from Azure Event Hub.
+- [TCP Trigger](https://docs.frends.com/reference/frends-6.1.0/triggers/tcp-trigger.md): Listen for raw TCP connections coming to Frends.
+- [Introduction](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/introduction.md): Manage and operate your Frends Tenant using API.
+- [How to enable Frends Platform API](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/how-to-enable-frends-platform-api.md): It's not usable out of the box.
+- [Platform API Reference](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference.md): All the contents for the Platform API.
+- [AgentGroups](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/agentgroups.md)
+- [Agents](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/agents.md)
+- [ApiAccessManagement](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/apiaccessmanagement.md)
+- [ApiPolicies](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/apipolicies.md)
+- [ApiSpecifications](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/apispecifications.md)
+- [Environments](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/environments.md)
+- [EnvironmentVariables](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/environmentvariables.md)
+- [FrendsAiEndpointBuilder](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/frendsaiendpointbuilder.md)
+- [PrivateApplication](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/privateapplication.md)
+- [ProcessDeployments](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processdeployments.md)
+- [Processes](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processes.md)
+- [ProcessInstances](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processinstances.md)
+- [ProcessTemplates](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processtemplates.md)
+- [Tags](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/tags.md)
+- [Models](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/models.md)
+- [Agent application settings](https://docs.frends.com/reference/frends-6.1.0/architecture/agent-application-settings.md): Additional settings available for the cross platform Agents.
+- [Agent storage availability](https://docs.frends.com/reference/frends-6.1.0/architecture/agent-storage-availability.md): What storage is directly accessible by Agents.
+- [Technical details for Frends Agent](https://docs.frends.com/reference/frends-6.1.0/architecture/technical-details-for-frends-agent.md): This document describes a typical Frends Agent installation details.
+- [Agent connectivity requirements](https://docs.frends.com/reference/frends-6.1.0/architecture/agent-connectivity-requirements.md): What openings does a Frends Agent need in firewall.
+- [Frends Data Flowcharts](https://docs.frends.com/reference/frends-6.1.0/architecture/frends-data-flowcharts.md): How data is transferred between elements in Frends Architecture.
+- [Role-Based Access Control](https://docs.frends.com/reference/frends-6.1.0/administration/role-based-access-control.md): Details on how to fine tune access to your Frends Tenant.
+- [Process Log Settings](https://docs.frends.com/reference/frends-6.1.0/administration/process-log-settings.md): Settings available for adjusting Process logging.
+
+## Tasks
+
+- [Frends Tasks](https://docs.frends.com/tasks/readme.md)
+- [Creating Custom Tasks](https://docs.frends.com/tasks/task-guides/creating-custom-tasks.md): How to create a Custom Task for Frends using C#.
+- [Frends Official Task Development Guidelines](https://docs.frends.com/tasks/task-guides/frends-official-task-development-guidelines.md): What requirements there are to publish an official Frends Task.
+- [Publishing Tasks to Frends Official Channels](https://docs.frends.com/tasks/task-guides/publishing-tasks-to-frends-official-channels.md): How to publish your Task to be available in official Frends channels.
+- [Amazon Kinesis](https://docs.frends.com/tasks/tasks/amazon-kinesis.md): Amazon Kinesis is a platform for collecting, processing, and analyzing real-time streaming data such as logs, events, and IoT data as it arrives.
+- [PutRecords](https://docs.frends.com/tasks/tasks/amazon-kinesis/putrecords.md): Frends Task for sending data records to an Amazon Kinesis Data Stream.
+- [Amazon S3](https://docs.frends.com/tasks/tasks/amazon-s3.md): Amazon S3 is a scalable, secure, and highly available object storage service for storing and retrieving data.
+- [DeleteBucket](https://docs.frends.com/tasks/tasks/amazon-s3/deletebucket.md): Delete AWS S3 Bucket.
+- [DeleteObject](https://docs.frends.com/tasks/tasks/amazon-s3/deleteobject.md): Delete objects from an Amazon S3 bucket.
+- [DownloadObject](https://docs.frends.com/tasks/tasks/amazon-s3/downloadobject.md): Download objects from AWS S3.
+- [ListObjects](https://docs.frends.com/tasks/tasks/amazon-s3/listobjects.md): Lists objects from specified AWS S3 Bucket.
+- [ListObjectVersions](https://docs.frends.com/tasks/tasks/amazon-s3/listobjectversions.md): Task to get metadata about all versions of the objects in a bucket
+- [UploadObject](https://docs.frends.com/tasks/tasks/amazon-s3/uploadobject.md): Upload objects to AWS S3 Bucket.
+- [Amazon SQS](https://docs.frends.com/tasks/tasks/amazon-sqs.md): Amazon SQS is a fully managed message queuing service for decoupling and scaling microservices.
+- [Receive](https://docs.frends.com/tasks/tasks/amazon-sqs/receive.md): Frends Task for receiving messages from AmazonSQS.
+- [Send](https://docs.frends.com/tasks/tasks/amazon-sqs/send.md): Frends Task for sending messages to AmazonSQS.
+- [AMQP](https://docs.frends.com/tasks/tasks/amqp.md): AMQP 1.0 is a messaging protocol that facilitates seamless and standardized communication between systems.
+- [Send](https://docs.frends.com/tasks/tasks/amqp/send.md): Task for sending Advanced Message Queuing Protocol = AMQP messages.
+- [AS2](https://docs.frends.com/tasks/tasks/as2.md): AS2 is a secure protocol for transmitting structured business data over the internet using HTTP/S and digital certificates.
+- [SendMessage](https://docs.frends.com/tasks/tasks/as2/sendmessage.md): As2 SendMessage task sends a message to an AS2 server using the provided parameters
+- [ValidateAndParsePayload](https://docs.frends.com/tasks/tasks/as2/validateandparsepayload.md): Task to validate an incoming AS2 message, extracts the EDI payload, and generates an MDN receipt.
+- [Avro](https://docs.frends.com/tasks/tasks/avro.md): Avro is a compact, schema-based data serialization system, enabling efficient data exchange and storage.
+- [Deserialize](https://docs.frends.com/tasks/tasks/avro/deserialize.md): Deserializes an Avro file to JSON format.
+- [Serialize](https://docs.frends.com/tasks/tasks/avro/serialize.md): Serializes JSON data into Avro binary format and saves it to a file.
+- [Azure Blob Storage](https://docs.frends.com/tasks/tasks/azure-blob-storage.md): Azure Blob Storage is a scalable and durable cloud storage solution for storing and managing unstructured data.
+- [CreateContainer](https://docs.frends.com/tasks/tasks/azure-blob-storage/createcontainer.md): Frends Task for creating a container to Azure Blob Storage.
+- [DeleteBlob](https://docs.frends.com/tasks/tasks/azure-blob-storage/deleteblob.md): Delete a single blob from Azure Blob Storage.
+- [DeleteContainer](https://docs.frends.com/tasks/tasks/azure-blob-storage/deletecontainer.md): Deletes a container from Azure blob storage.
+- [DownloadBlob](https://docs.frends.com/tasks/tasks/azure-blob-storage/downloadblob.md): Downloads a Blob from Azure Blob Storage to the local file system.
+- [ListBlobsInContainer](https://docs.frends.com/tasks/tasks/azure-blob-storage/listblobsincontainer.md): List blobs and directories from the Azure Blob Storage container.
+- [ListContainers](https://docs.frends.com/tasks/tasks/azure-blob-storage/listcontainers.md): Frends Task to list all containers in the specified Azure Blob Storage account.
+- [ReadBlob](https://docs.frends.com/tasks/tasks/azure-blob-storage/readblob.md): Frends Task for encoding and reading a single blob from Azure Storage.
+- [UploadBlob](https://docs.frends.com/tasks/tasks/azure-blob-storage/uploadblob.md): Frends Task to upload blobs to Azure Blob Storage.
+- [WriteBlob](https://docs.frends.com/tasks/tasks/azure-blob-storage/writeblob.md): Frends Task to write content to Azure Blob Storage.
+- [Azure Data Lake](https://docs.frends.com/tasks/tasks/azure-data-lake.md): Azure Data Lake is a scalable cloud storage service designed for big data analytics and large-scale data processing.
+- [CreateContainer](https://docs.frends.com/tasks/tasks/azure-data-lake/createcontainer.md): Frends Task for creating a container to Azure Data Lake.
+- [DeleteContainer](https://docs.frends.com/tasks/tasks/azure-data-lake/deletecontainer.md): Deletes a container from Azure Data Lake.
+- [DeleteDirectory](https://docs.frends.com/tasks/tasks/azure-data-lake/deletedirectory.md): Frends Task for deleting a directory in Azure Data Lake container.
+- [DeleteFiles](https://docs.frends.com/tasks/tasks/azure-data-lake/deletefiles.md): Delete files from Azure Data Lake.
+- [DownloadFiles](https://docs.frends.com/tasks/tasks/azure-data-lake/downloadfiles.md): Downloads files from Azure Data Lake.
+- [UploadFiles](https://docs.frends.com/tasks/tasks/azure-data-lake/uploadfiles.md): Upload files to Azure Data Lake.
+- [Azure Event Hub](https://docs.frends.com/tasks/tasks/azure-event-hub.md): Azure Event Hub is a scalable and real-time event streaming platform for ingesting and processing large volumes of data.
+- [Receive](https://docs.frends.com/tasks/tasks/azure-event-hub/receive.md): Receive events from Azure Event Hub.
+- [Send](https://docs.frends.com/tasks/tasks/azure-event-hub/send.md): Reads text and replaces substrings matching with specified regular expression.
+- [UpdateCheckpoint](https://docs.frends.com/tasks/tasks/azure-event-hub/updatecheckpoint.md): Task to update checkpoints in an Azure Storage container for a specified Event Hub consumer group.
+- [CassandraDB](https://docs.frends.com/tasks/tasks/cassandradb.md): Cassandra is a NoSQL database designed for high availability, scalability, and distributed data management.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/cassandradb/executequery.md): CassandraDB Execute operation.
+- [Confluence](https://docs.frends.com/tasks/tasks/confluence.md): Confluence is a collaborative workspace by Atlassian for documentation, project management, and team knowledge sharing.
+- [Request](https://docs.frends.com/tasks/tasks/confluence/request.md): Make a request to Confluence.
+- [Cryptography](https://docs.frends.com/tasks/tasks/cryptography.md): Cryptography-related tasks for securing information through encryption, decryption and hashing techniques.
+- [GenerateHash](https://docs.frends.com/tasks/tasks/cryptography/generatehash.md): Calculate hash from input using selected algorithm
+- [CSV](https://docs.frends.com/tasks/tasks/csv.md): Plain text file with tabular data using commas (or similar symbols) to separate values and line breaks for rows.
+- [ConvertToJSON](https://docs.frends.com/tasks/tasks/csv/converttojson.md): Converts CSV string content to JSON string.
+- [ConvertToXML](https://docs.frends.com/tasks/tasks/csv/converttoxml.md): Converts CSV string content to XML string.
+- [Create](https://docs.frends.com/tasks/tasks/csv/create.md): Create a CSV string from a List, JSON string or XML string.
+- [Parse](https://docs.frends.com/tasks/tasks/csv/parse.md): Frends Task for parsing CSV string.
+- [Edifact](https://docs.frends.com/tasks/tasks/edifact.md): EDIFACT is a standard for exchanging structured business documents electronically.
+- [ConvertToJson](https://docs.frends.com/tasks/tasks/edifact/converttojson.md): Converts an EDIFACT document to XML. Supports the following formats:
+- [ConvertToXml](https://docs.frends.com/tasks/tasks/edifact/converttoxml.md): Converts an EDIFACT document to XML. Supports the following formats:
+- [CreateFromJson](https://docs.frends.com/tasks/tasks/edifact/createfromjson.md): Converts an EDIFACT document to XML. Supports the following formats:
+- [Excel](https://docs.frends.com/tasks/tasks/excel.md): Excel is a spreadsheet software used for data analysis, organisation and calculations.
+- [ConvertToCSV](https://docs.frends.com/tasks/tasks/excel/converttocsv.md): Converts Excel file to CSV.
+- [ConvertToJSON](https://docs.frends.com/tasks/tasks/excel/converttojson.md): Converts Excel file to JSON. https://tasks.frends.com/tasks/frends-tasks/Frends.Excel.ConvertToJSON
+- [ConvertToXML](https://docs.frends.com/tasks/tasks/excel/converttoxml.md): Converts Excel file to XML.
+- [CreateFromCsv](https://docs.frends.com/tasks/tasks/excel/createfromcsv.md): Task to create an .xlsx file from data stored in .csv file
+- [Parse](https://docs.frends.com/tasks/tasks/excel/parse.md): Converts Excel file to data set. https://tasks.frends.com/tasks#frends-tasks/Frends.Excel.Parse
+- [Exchange](https://docs.frends.com/tasks/tasks/exchange.md): Exchange is a Microsoft email and calendaring service for businesses, offering secure messaging, scheduling, and collaboration.
+- [ReadEmail](https://docs.frends.com/tasks/tasks/exchange/reademail.md): Read Microsoft Exchange emails and downloading their attachments.
+- [SendEmail](https://docs.frends.com/tasks/tasks/exchange/sendemail.md): Send a Microsoft Exchange email.
+- [Facebook](https://docs.frends.com/tasks/tasks/facebook.md): Facebook tasks allow interacting with Facebook Graph API.
+- [Get](https://docs.frends.com/tasks/tasks/facebook/get.md): This is task for reading data from Facebook API.
+- [Request](https://docs.frends.com/tasks/tasks/facebook/request.md): This is task for reading data from Facebook API.
+- [Files](https://docs.frends.com/tasks/tasks/files.md): File tasks allow to perform common file and directory operations.
+- [Copy](https://docs.frends.com/tasks/tasks/files/copy.md): Copy files.
+- [CreateDirectory](https://docs.frends.com/tasks/tasks/files/createdirectory.md): Creates all directories and subdirectories in the specified path unless they already exist. Will not do anything if the directory exists.
+- [Delete](https://docs.frends.com/tasks/tasks/files/delete.md): Delete files.
+- [DeleteDirectory](https://docs.frends.com/tasks/tasks/files/deletedirectory.md): Deletes all directories and subdirectories in the specified path. Will not do anything if the directory do not exist.
+- [Find](https://docs.frends.com/tasks/tasks/files/find.md): Find files from directory.
+- [LocalBackup](https://docs.frends.com/tasks/tasks/files/localbackup.md): Create a local backup. Optionally task can create new subdirectories for backups and delete old backup directories.
+- [Move](https://docs.frends.com/tasks/tasks/files/move.md): Move files.
+- [MoveDirectory](https://docs.frends.com/tasks/tasks/files/movedirectory.md): Moves a directory. By default will throw an error if the directory already exists.
+- [Read](https://docs.frends.com/tasks/tasks/files/read.md): Reads a file from directory.
+- [ReadBytes](https://docs.frends.com/tasks/tasks/files/readbytes.md): Read contents of a file as a byte array.
+- [Rename](https://docs.frends.com/tasks/tasks/files/rename.md): Rename file.
+- [Write](https://docs.frends.com/tasks/tasks/files/write.md): Write content to a file.
+- [WriteBytes](https://docs.frends.com/tasks/tasks/files/writebytes.md): Write file in bytes.
+- [Fixed Width Flat File](https://docs.frends.com/tasks/tasks/fixed-width-flat-file.md): Files with columns of predetermined width.
+- [ConvertToJSON](https://docs.frends.com/tasks/tasks/fixed-width-flat-file/converttojson.md): Task converts List\<dictionary\<string, dynamic>> typed object to json string. Mainly used to convert Frends.FixedWidthFlatFile.Parse result object to json string.
+- [ConvertToXML](https://docs.frends.com/tasks/tasks/fixed-width-flat-file/converttoxml.md): Task converts List\<dictionary\<string, dynamic>> typed object to xml string. Mainly used to convert Frends.FixedWidthFlatFile.Parse result object to xml string.
+- [Parse](https://docs.frends.com/tasks/tasks/fixed-width-flat-file/parse.md): Parse Fixed Width data to object.
+- [FTP](https://docs.frends.com/tasks/tasks/ftp.md): FTP is a standard network protocol used for transferring files over a network.
+- [DeleteFiles](https://docs.frends.com/tasks/tasks/ftp/deletefiles.md): Frends Task for deleting files from FTPS server.
+- [DownloadFiles](https://docs.frends.com/tasks/tasks/ftp/downloadfiles.md): Download files from an FTP server.
+- [ListFiles](https://docs.frends.com/tasks/tasks/ftp/listfiles.md): Gets the list of files from the FTPS source.
+- [ReadFile](https://docs.frends.com/tasks/tasks/ftp/readfile.md): Reads file from the FTPS server.
+- [UploadFiles](https://docs.frends.com/tasks/tasks/ftp/uploadfiles.md): Upload files to an FTP server.
+- [WriteFile](https://docs.frends.com/tasks/tasks/ftp/writefile.md): Writes file to the FTPS server.
+- [Google BigQuery](https://docs.frends.com/tasks/tasks/google-bigquery.md): Google BigQuery is a fast, scalable, and serverless cloud data warehouse for analytics and insights.
+- [CreateResource](https://docs.frends.com/tasks/tasks/google-bigquery/createresource.md): Create resource to BigQuery table.
+- [DeleteResource](https://docs.frends.com/tasks/tasks/google-bigquery/deleteresource.md): Delete resource.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/google-bigquery/executequery.md): Frends Task to execute Google BigQuery query.
+- [GetResource](https://docs.frends.com/tasks/tasks/google-bigquery/getresource.md): Get resource.
+- [Insert](https://docs.frends.com/tasks/tasks/google-bigquery/insert.md): Insert to BigQuery table.
+- [ListResource](https://docs.frends.com/tasks/tasks/google-bigquery/listresource.md): List resource.
+- [PatchResource](https://docs.frends.com/tasks/tasks/google-bigquery/patchresource.md): Updates information in an existing resource. Patch method only replaces fields that are provided in the submitted resource.
+- [UpdateResource](https://docs.frends.com/tasks/tasks/google-bigquery/updateresource.md): Updates information in an existing resource.
+- [Google Cloud Storage](https://docs.frends.com/tasks/tasks/google-cloud-storage.md)
+- [CreateBucket](https://docs.frends.com/tasks/tasks/google-cloud-storage/createbucket.md): Creates a bucket to Google Cloud Storage.
+- [DeleteBucket](https://docs.frends.com/tasks/tasks/google-cloud-storage/deletebucket.md): Deletes a bucket from Google Cloud Storage.
+- [DeleteObject](https://docs.frends.com/tasks/tasks/google-cloud-storage/deleteobject.md): Deletes file/s from Google Cloud Storage.
+- [DownloadObject](https://docs.frends.com/tasks/tasks/google-cloud-storage/downloadobject.md): Downloads files from Google Cloud Storage.
+- [UploadObject](https://docs.frends.com/tasks/tasks/google-cloud-storage/uploadobject.md): Uploads files to Google Cloud Storage.
+- [Google Drive](https://docs.frends.com/tasks/tasks/google-drive.md): Google Drive is a cloud storage service for files, documents, and collaboration.
+- [Delete](https://docs.frends.com/tasks/tasks/google-drive/delete.md): Permanently deletes a file owned by the user without moving it to the trash.
+- [Download](https://docs.frends.com/tasks/tasks/google-drive/download.md): Download objects from Google Drive.
+- [List](https://docs.frends.com/tasks/tasks/google-drive/list.md): List files in Google Drive.
+- [Upload](https://docs.frends.com/tasks/tasks/google-drive/upload.md): Upload objects to Google Drive.
+- [Google Pub/Sub](https://docs.frends.com/tasks/tasks/google-pub-sub.md): Google Pub/Sub is a messaging service for async communication between applications.
+- [Consume](https://docs.frends.com/tasks/tasks/google-pub-sub/consume.md): Frends Task for consuming messages from Google Cloud PubSub service.
+- [Publish](https://docs.frends.com/tasks/tasks/google-pub-sub/publish.md): This tasks publishes one or more messages to Google PubSub service.
+- [Google Sheets](https://docs.frends.com/tasks/tasks/google-sheets.md): Google Sheets is an online spreadsheet app.
+- [CreateSheet](https://docs.frends.com/tasks/tasks/google-sheets/createsheet.md): Creates a new sheet in a specified Google Sheets spreadsheet.
+- [ReadSheet](https://docs.frends.com/tasks/tasks/google-sheets/readsheet.md): Reads data from a specified range in a Google Sheets spreadsheet.
+- [WriteData](https://docs.frends.com/tasks/tasks/google-sheets/writedata.md): Writes data to a Google Sheets document. Can append or overwrite data in the specified range.
+- [Gps](https://docs.frends.com/tasks/tasks/gps.md): Provides tasks for working with GPS data.
+- [TransformGdal](https://docs.frends.com/tasks/tasks/gps/transformgdal.md): This is Task to transform Gps coordinates.
+- [GraphQL](https://docs.frends.com/tasks/tasks/graphql.md): GraphQL is a query language for APIs and a runtime for executing those queries with your existing data.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/graphql/executequery.md): GraphQl query will be executed after running this task.
+- [Hl7v2](https://docs.frends.com/tasks/tasks/hl7v2.md)
+- [ConvertToXml](https://docs.frends.com/tasks/tasks/hl7v2/converttoxml.md): Task to convert HL7v2 message to XML.
+- [CreateFromXml](https://docs.frends.com/tasks/tasks/hl7v2/createfromxml.md): Task to create Hl7v2 message from Xml
+- [Validate](https://docs.frends.com/tasks/tasks/hl7v2/validate.md): Task to validate Hl7v2 message
+- [HTTP](https://docs.frends.com/tasks/tasks/http.md): HTTP is a communication protocol between web browsers and servers for transmitting data.
+- [DownloadFile](https://docs.frends.com/tasks/tasks/http/downloadfile.md): Fetch file over HTTP.
+- [Request](https://docs.frends.com/tasks/tasks/http/request.md): Frends Task for executing HTTP requests with String or JSON payload.
+- [RequestBytes](https://docs.frends.com/tasks/tasks/http/requestbytes.md): HTTP request with byte return type
+- [SendAndReceiveBytes](https://docs.frends.com/tasks/tasks/http/sendandreceivebytes.md): HTTP request for sending and receiving content in byte array.
+- [SendBytes](https://docs.frends.com/tasks/tasks/http/sendbytes.md): HTTP request to send content in byte array.
+- [HubSpot](https://docs.frends.com/tasks/tasks/hubspot.md): HubSpot is a CRM platform for marketing, sales, and customer service.
+- [CreateCompany](https://docs.frends.com/tasks/tasks/hubspot/createcompany.md): Frends task for creating a company in HubSpot.
+- [CreateContact](https://docs.frends.com/tasks/tasks/hubspot/createcontact.md): Creates a contact in HubSpot.
+- [CreateDeal](https://docs.frends.com/tasks/tasks/hubspot/createdeal.md): Creates a deal in HubSpot.
+- [CreateTicket](https://docs.frends.com/tasks/tasks/hubspot/createticket.md): Frends task for creating a ticket in HubSpot.
+- [DeleteCompany](https://docs.frends.com/tasks/tasks/hubspot/deletecompany.md): Frends task for deleting a company in HubSpot.
+- [DeleteContact](https://docs.frends.com/tasks/tasks/hubspot/deletecontact.md): Deletes a contact in HubSpot.
+- [DeleteTicket](https://docs.frends.com/tasks/tasks/hubspot/deleteticket.md): Frends task for deleting a ticket in HubSpot.
+- [GetContacts](https://docs.frends.com/tasks/tasks/hubspot/getcontacts.md): Retrieves contacts from HubSpot.
+- [UpdateCompany](https://docs.frends.com/tasks/tasks/hubspot/updatecompany.md): Frends task for updating a company in HubSpot.
+- [UpdateContact](https://docs.frends.com/tasks/tasks/hubspot/updatecontact.md): Updates a contact in HubSpot.
+- [UpdateTicket](https://docs.frends.com/tasks/tasks/hubspot/updateticket.md): Frends task for updating a ticket in HubSpot.
+- [IBM Db2](https://docs.frends.com/tasks/tasks/ibm-db2.md): IBM Db2 is a database system for robust data storage, retrieval, and management.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/ibm-db2/executequery.md): Frends Task for executing queries in IBMDB2.
+- [IBM Maximo](https://docs.frends.com/tasks/tasks/ibm-maximo.md): IBM Maximo is an enterprise asset management system for managing physical assets, maintenance operations, and related workflows.
+- [Request](https://docs.frends.com/tasks/tasks/ibm-maximo/request.md): Frends Task for making IBM Maximo requests.
+- [IBM MQ](https://docs.frends.com/tasks/tasks/ibm-mq.md): IBM MQ is an enterprise-grade message queuing service used to connect applications, systems, and services with guaranteed message delivery.
+- [GetMessages](https://docs.frends.com/tasks/tasks/ibm-mq/getmessages.md): Frends Task to get messages from IBM MQ queue.
+- [GetQueueStatus](https://docs.frends.com/tasks/tasks/ibm-mq/getqueuestatus.md): Get status information of IBM MQ queues.
+- [PeekMessage](https://docs.frends.com/tasks/tasks/ibm-mq/peekmessage.md): Frends Task to peek messages from IBM MQ queues.
+- [PutMessage](https://docs.frends.com/tasks/tasks/ibm-mq/putmessage.md): Put message to IBM MQ as string or byte array.
+- [IMAP](https://docs.frends.com/tasks/tasks/imap.md): IMAP (Internet Message Access Protocol) is a standard email protocol that stores email messages on a mail server, but allows the end user to view and manipulate the messages as though they were stored
+- [ReadEmail](https://docs.frends.com/tasks/tasks/imap/reademail.md): Frends task, that allows to read emails from IMAP server and
+- [Instagram](https://docs.frends.com/tasks/tasks/instagram.md): Instagram tasks allow interacting with Instagram (Facebook) Graph API.
+- [Get](https://docs.frends.com/tasks/tasks/instagram/get.md): This is Task for reading data from Instagram API.
+- [Request](https://docs.frends.com/tasks/tasks/instagram/request.md): This is Frends task for sending requests to Instagram API.
+- [Jira](https://docs.frends.com/tasks/tasks/jira.md): Jira is a project management and issue tracking tool for software development and team collaboration.
+- [AddIssueComment](https://docs.frends.com/tasks/tasks/jira/addissuecomment.md): Add comment to Jira issue.
+- [CreateIssue](https://docs.frends.com/tasks/tasks/jira/createissue.md): Create Jira issue.
+- [DeleteIssue](https://docs.frends.com/tasks/tasks/jira/deleteissue.md): Delete Jira issue.
+- [GetIssue](https://docs.frends.com/tasks/tasks/jira/getissue.md): Get Jira issues.
+- [UpdateIssue](https://docs.frends.com/tasks/tasks/jira/updateissue.md): Update Jira issue.
+- [JSON](https://docs.frends.com/tasks/tasks/json.md): JSON is a lightweight data format used for structured data representation.
+- [ConvertJSONStringToJToken](https://docs.frends.com/tasks/tasks/json/convertjsonstringtojtoken.md): Convert JSON string to JToken.
+- [ConvertXMLStringToJToken](https://docs.frends.com/tasks/tasks/json/convertxmlstringtojtoken.md): Convert XML string to JToken.
+- [EnforceTypes](https://docs.frends.com/tasks/tasks/json/enforcetypes.md): This task allows enforcing types in Json documents by giving an array of
+- [Handlebars](https://docs.frends.com/tasks/tasks/json/handlebars.md): Compile JToken to Handlebar template string.
+- [Query](https://docs.frends.com/tasks/tasks/json/query.md): Query JSON string/token.
+- [QuerySingle](https://docs.frends.com/tasks/tasks/json/querysingle.md): Query JSON string/token for a single result.
+- [Transform](https://docs.frends.com/tasks/tasks/json/transform.md): Maps input json using JUST.Net library.
+- [Validate](https://docs.frends.com/tasks/tasks/json/validate.md): Validate your JSON with Json.NET Schema.
+- [Kafka](https://docs.frends.com/tasks/tasks/kafka.md): Kafka is a distributed event streaming platform for high-performance data processing.
+- [Consume](https://docs.frends.com/tasks/tasks/kafka/consume.md): Kafka Consume operation.
+- [Produce](https://docs.frends.com/tasks/tasks/kafka/produce.md): Kafka produce operation.
+- [LDAP](https://docs.frends.com/tasks/tasks/ldap.md): LDAP is a protocol used to access and manage directory information, such as user identities.
+- [AddUserToGroups](https://docs.frends.com/tasks/tasks/ldap/addusertogroups.md): Add user to Active Directory groups.
+- [CreateUser](https://docs.frends.com/tasks/tasks/ldap/createuser.md): Create a user to Active Directory.
+- [DeleteUser](https://docs.frends.com/tasks/tasks/ldap/deleteuser.md): Delete a user from Active Directory.
+- [RemoveUserFromGroups](https://docs.frends.com/tasks/tasks/ldap/removeuserfromgroups.md): Remove a user from Active Directory groups.
+- [SearchObjects](https://docs.frends.com/tasks/tasks/ldap/searchobjects.md): Search objects from Active Directory.
+- [UpdateUser](https://docs.frends.com/tasks/tasks/ldap/updateuser.md): Update Active Directory user.
+- [LinkedIn](https://docs.frends.com/tasks/tasks/linkedin.md): Frends tasks related to LinkedIn. LinkedIn tasks allow interacting with the LinkedIn API.
+- [Request](https://docs.frends.com/tasks/tasks/linkedin/request.md): Frends Task for sending Http request to LinkedIn API.
+- [SearchAdAccounts](https://docs.frends.com/tasks/tasks/linkedin/searchadaccounts.md): Frends Task for searching AdAccounts from LinkedIn.
+- [SearchAdAccountUser](https://docs.frends.com/tasks/tasks/linkedin/searchadaccountuser.md): Frends Task for searching a user from LinkedIn Ad Account.
+- [SearchAdAnalytics](https://docs.frends.com/tasks/tasks/linkedin/searchadanalytics.md): Frends Task for fetching AdAnalytics from LinkedInAds.
+- [SearchAdCampaigns](https://docs.frends.com/tasks/tasks/linkedin/searchadcampaigns.md): Frends Task for finding LinkedIn Campaigns using LinkedIn Rest API.
+- [SearchAdCreatives](https://docs.frends.com/tasks/tasks/linkedin/searchadcreatives.md): Frends Task for searching AdCreatives from LinkedInAds.
+- [Microsoft Dynamics 365](https://docs.frends.com/tasks/tasks/microsoft-dynamics-365.md): Microsoft Dynamics 365 is a suite of applications for CRM, ERP, and cloud services.
+- [Request](https://docs.frends.com/tasks/tasks/microsoft-dynamics-365/request.md): Task for making requests to Microsoft Dynamics 365.
+- [Microsoft SQL Server](https://docs.frends.com/tasks/tasks/microsoft-sql-server.md): SQL Server is a relational database management system, used for storing structured data.
+- [BatchOperation](https://docs.frends.com/tasks/tasks/microsoft-sql-server/batchoperation.md): Use JSON array to create and execute the query as a Microsoft SQL Server batch operation.
+- [BulkInsert](https://docs.frends.com/tasks/tasks/microsoft-sql-server/bulkinsert.md): Execute bulk insert JSON data to Microsoft SQL Server.
+- [ExecuteProcedure](https://docs.frends.com/tasks/tasks/microsoft-sql-server/executeprocedure.md): Execute Microsoft SQL Server procedure.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/microsoft-sql-server/executequery.md): Execute MSSQL query.
+- [ExecuteQueryToFile](https://docs.frends.com/tasks/tasks/microsoft-sql-server/executequerytofile.md): Frends Task for executing Microsoft SQL queries into a file.
+- [Microsoft Teams](https://docs.frends.com/tasks/tasks/microsoft-teams.md): Microsoft Teams is a hub for chat, video meetings, and teamwork in one platform.
+- [SendMessage](https://docs.frends.com/tasks/tasks/microsoft-teams/sendmessage.md): Send message to Microsoft Teams.
+- [Mllp](https://docs.frends.com/tasks/tasks/mllp.md): MLLP (Minimum Lower Layer Protocol) is the standard protocol for transmitting HL7 messages over TCP/IP networks, primarily used in healthcare environments.
+- [Receive](https://docs.frends.com/tasks/tasks/mllp/receive.md): Starts an MLLP server that collects incoming HL7 messages for the configured duration.
+- [Send](https://docs.frends.com/tasks/tasks/mllp/send.md): Sends a single HL7 message via MLLP.
+- [MongoDB](https://docs.frends.com/tasks/tasks/mongodb.md): MongoDB is a NoSQL database known for its flexible document-oriented data model.
+- [Delete](https://docs.frends.com/tasks/tasks/mongodb/delete.md): MongoDB delete operation.
+- [Insert](https://docs.frends.com/tasks/tasks/mongodb/insert.md): MongoDB insert operation.
+- [Query](https://docs.frends.com/tasks/tasks/mongodb/query.md): MongoDB query operation.
+- [Update](https://docs.frends.com/tasks/tasks/mongodb/update.md): MongoDB update operation.
+- [MQTT](https://docs.frends.com/tasks/tasks/mqtt.md): MQTT is a lightweight, publish-subscribe messaging protocol for low-bandwidth, high-latency networks.
+- [Receive](https://docs.frends.com/tasks/tasks/mqtt/receive.md): This is the Task to connnect to an MQTT broker and start a listening session.
+- [Send](https://docs.frends.com/tasks/tasks/mqtt/send.md): This is the Task to connect to a MQTT broker, publishes a message to a given topic, then disconnects.
+- [MySQL](https://docs.frends.com/tasks/tasks/mysql.md): MySQL is an open-source relational database management system known for its simplicity.
+- [ExecuteProcedure](https://docs.frends.com/tasks/tasks/mysql/executeprocedure.md): Execute a stored procedure to MySQL.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/mysql/executequery.md): Execute queries against the MySql database and return result of query in JToken.
+- [OAuth](https://docs.frends.com/tasks/tasks/oauth.md): OAuth is an industry-standard protocol for secure authorization and delegated access.
+- [CreateJWTToken](https://docs.frends.com/tasks/tasks/oauth/createjwttoken.md): Create JSON Web Token.
+- [ParseToken](https://docs.frends.com/tasks/tasks/oauth/parsetoken.md): Parses the provided OAuth JWT token or Authorization header.
+- [ODBC](https://docs.frends.com/tasks/tasks/odbc.md): ODBC (Open Database Connectivity) is a standard API that allows applications to interact with different database management systems.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/odbc/executequery.md): Execute ODBC query.
+- [ODF](https://docs.frends.com/tasks/tasks/odf.md): OpenDocument Format (ODF) is a free, open-standard file format for office applications.
+- [ReadSpreadsheet](https://docs.frends.com/tasks/tasks/odf/readspreadsheet.md): Receive an OpenDocument Spreadsheet .ods file and extract tabular data from the first sheet, converting it into JSON format.
+- [ReadTextDocument](https://docs.frends.com/tasks/tasks/odf/readtextdocument.md): Extracts readable text from OpenDocument Text .odt files.
+- [WriteSpreadsheet](https://docs.frends.com/tasks/tasks/odf/writespreadsheet.md): Generate an OpenDocument Spreadsheet .ods file by injecting user inputted JSON data into a built-in template.
+- [WriteTextDocument](https://docs.frends.com/tasks/tasks/odf/writetextdocument.md): Generate an OpenDocument Text .odt file by injecting user-input JSON data
+- [Odoo](https://docs.frends.com/tasks/tasks/odoo.md): Odoo is an open-source ERP and CRM tool that includes various software tools for business management.
+- [Request](https://docs.frends.com/tasks/tasks/odoo/request.md): Frends Task for making requests to Odoo API.
+- [Opcua](https://docs.frends.com/tasks/tasks/opcua.md): Reads values from an OPCUA server.
+- [Read](https://docs.frends.com/tasks/tasks/opcua/read.md): Task for reading data from OPCUA Server.
+- [OpenAI](https://docs.frends.com/tasks/tasks/openai.md): OpenAI specializes in AI research and development, e.g. ChatGPT service.
+- [CallChatGPT](https://docs.frends.com/tasks/tasks/openai/callchatgpt.md): Task for calling ChatGPT API.
+- [Oracle](https://docs.frends.com/tasks/tasks/oracle.md): Oracle is a relational database management system known for its scalability and enterprise features.
+- [ExecuteProcedure](https://docs.frends.com/tasks/tasks/oracle/executeprocedure.md): Task for performing stored procedures in Oracle database.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/oracle/executequery.md): Task for performing queries in an Oracle database.
+- [Oracle Fusion](https://docs.frends.com/tasks/tasks/oracle-fusion.md): Oracle Fusion offers cloud-based ERP, HCM, and CX solutions.
+- [GetEssJobStatus](https://docs.frends.com/tasks/tasks/oracle-fusion/getessjobstatus.md): Frends task to check and optionally wait for completion of an Oracle Fusion ESS job.
+- [ImportBulkData](https://docs.frends.com/tasks/tasks/oracle-fusion/importbulkdata.md): Frends task that uploads FBDI files as a ZIP archive to Oracle Fusion UCM and returns a DocumentId for triggering the import job.
+- [SubmitEssJob](https://docs.frends.com/tasks/tasks/oracle-fusion/submitessjob.md): Submits an Oracle Fusion ESS job and immediately returns the assigned Request ID.
+- [Pdf](https://docs.frends.com/tasks/tasks/pdf.md): Pdf is a file format for viewing documents across different platforms.
+- [Create](https://docs.frends.com/tasks/tasks/pdf/create.md): Create PDF document from given content.
+- [MergeDocuments](https://docs.frends.com/tasks/tasks/pdf/mergedocuments.md): Task to merge multiple Pdf documents into one.
+- [Read](https://docs.frends.com/tasks/tasks/pdf/read.md): Frends task to read Pdf documents
+- [PGP](https://docs.frends.com/tasks/tasks/pgp.md): PGP (Pretty Good Privacy) is an encryption program for secure communication.
+- [DecryptFile](https://docs.frends.com/tasks/tasks/pgp/decryptfile.md): Task for decrypting a file with Pgp
+- [EncryptFile](https://docs.frends.com/tasks/tasks/pgp/encryptfile.md): Encrypts a file using public or private key. Additionally can be configured to use key rings.
+- [SignFile](https://docs.frends.com/tasks/tasks/pgp/signfile.md): PGP Task for signing files.
+- [VerifySignature](https://docs.frends.com/tasks/tasks/pgp/verifysignature.md): PGP Task for verifying signature.
+- [Platform API](https://docs.frends.com/tasks/tasks/platform-api.md): The Frends Platform API gives access to actions like deploying processes and editing environment variables through an API interface.
+- [Request](https://docs.frends.com/tasks/tasks/platform-api/request.md): Task for Frends Platform API related operations.
+- [PostgreSQL](https://docs.frends.com/tasks/tasks/postgresql.md): PostgreSQL is an open-source relational database management system.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/postgresql/executequery.md): Query data using PostgreSQL. https://tasks.frends.com/tasks/frends-tasks/Frends.PostgreSQL.ExecuteQuery
+- [Powershell](https://docs.frends.com/tasks/tasks/powershell.md): PowerShell is a task-based command-line shell and scripting language built on .NET.
+- [RunCommand](https://docs.frends.com/tasks/tasks/powershell/runcommand.md): Executes a PowerShell command with parameters, leave parameter value empty for a switch.
+- [RunScript](https://docs.frends.com/tasks/tasks/powershell/runscript.md): Executes a PowerShell script from a file or the script parameter.
+- [Python](https://docs.frends.com/tasks/tasks/python.md): Python is a versatile programming language for scripting and automation.
+- [ExecuteScript](https://docs.frends.com/tasks/tasks/python/executescript.md): Task to execute Python scripts.
+- [RabbitMQ](https://docs.frends.com/tasks/tasks/rabbitmq.md): RabbitMQ is a message broker that enables communication between distributed applications.
+- [Publish](https://docs.frends.com/tasks/tasks/rabbitmq/publish.md): Publish message to RabbitMQ queue in UTF8 or byte array format.
+- [Read](https://docs.frends.com/tasks/tasks/rabbitmq/read.md): Read messages from RabbitMQ queue. Message data is byte\[] encoded to base64 and UTF8 strings.
+- [Redis](https://docs.frends.com/tasks/tasks/redis.md): Redis is an in-memory data structure store, used as a database, cache, and message broker.
+- [DeleteKey](https://docs.frends.com/tasks/tasks/redis/deletekey.md): This is Task do delete key from Redis database.
+- [GetKeys](https://docs.frends.com/tasks/tasks/redis/getkeys.md)
+- [GetValue](https://docs.frends.com/tasks/tasks/redis/getvalue.md): This is Task.
+- [KeyExists](https://docs.frends.com/tasks/tasks/redis/keyexists.md): This is Task to check if Redis key exists.
+- [SetValue](https://docs.frends.com/tasks/tasks/redis/setvalue.md): This is Task.
+- [Regex](https://docs.frends.com/tasks/tasks/regex.md): Regex is a pattern matching language used for searching and manipulating text strings.
+- [IsMatch](https://docs.frends.com/tasks/tasks/regex/ismatch.md): Frends Task for checking if a string matches a certain Regex pattern.
+- [Match](https://docs.frends.com/tasks/tasks/regex/match.md): Frends Task will return full info for match result.
+- [Replace](https://docs.frends.com/tasks/tasks/regex/replace.md): Reads text and replaces substrings matching with specified regular expression.
+- [Salesforce](https://docs.frends.com/tasks/tasks/salesforce.md): Salesforce is a CRM platform for tracking customer relationships, sales and service operations.
+- [CreateSObject](https://docs.frends.com/tasks/tasks/salesforce/createsobject.md): Creates a sobject to Salesforce.
+- [DeleteSObject](https://docs.frends.com/tasks/tasks/salesforce/deletesobject.md): Deletes a SObject from Salesforce.
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/salesforce/executequery.md): Execute a query to Salesforce.
+- [PubSubConsume](https://docs.frends.com/tasks/tasks/salesforce/pubsubconsume.md): Task to consume salesforce messages with a Pub/Sub API
+- [PubSubPublish](https://docs.frends.com/tasks/tasks/salesforce/pubsubpublish.md): Task to publish salesforce messages with a Pub/Sub API
+- [UpdateSObject](https://docs.frends.com/tasks/tasks/salesforce/updatesobject.md): Updates a sobject from Salesforce.
+- [SAP S4/HANA](https://docs.frends.com/tasks/tasks/sap-s4-hana.md): SAP S/4HANA is an ERP for real-time data processing and agile business operations.
+- [ODataRequest](https://docs.frends.com/tasks/tasks/sap-s4-hana/odatarequest.md): Task to make a request to SAP OData API.
+- [SAP SuccessFactors](https://docs.frends.com/tasks/tasks/sap-successfactors.md): SAP SuccessFactors is an HCM suite for core HR, talent, and analytics.
+- [Request](https://docs.frends.com/tasks/tasks/sap-successfactors/request.md): Frends Task for executing SAP SuccessFactors requests.
+- [Service Bus](https://docs.frends.com/tasks/tasks/service-bus.md): Service Bus is a messaging platform providing communication capabilities for applications.
+- [Read](https://docs.frends.com/tasks/tasks/service-bus/read.md): Read message from Azure Service Bus queue or topic.
+- [Send](https://docs.frends.com/tasks/tasks/service-bus/send.md): Send message to Azure Service Bus queue or topic.
+- [ServiceNow](https://docs.frends.com/tasks/tasks/servicenow.md): ServiceNow is cloud-based platform for IT service management, workflow automation.
+- [CreateRecord](https://docs.frends.com/tasks/tasks/servicenow/createrecord.md): Frends Task for creating records from ServiceNow.
+- [DeleteRecord](https://docs.frends.com/tasks/tasks/servicenow/deleterecord.md): Frends Task for deleting a record from ServiceNow instance.
+- [FetchAccessToken](https://docs.frends.com/tasks/tasks/servicenow/fetchaccesstoken.md): Frends Task for fetching access token for ServiceNow instance.
+- [GetRecord](https://docs.frends.com/tasks/tasks/servicenow/getrecord.md): Frends Task for retrieving records from ServiceNow.
+- [UpdateRecord](https://docs.frends.com/tasks/tasks/servicenow/updaterecord.md): Frends Task for updating a record in ServiceNow instance.
+- [SFTP](https://docs.frends.com/tasks/tasks/sftp.md): SFTP is a standard network protocol used for transferring files over a network.
+- [DeleteFiles](https://docs.frends.com/tasks/tasks/sftp/deletefiles.md): Frends Task for deleting files from SFTP server.
+- [DownloadFiles](https://docs.frends.com/tasks/tasks/sftp/downloadfiles.md): Downloads file through SFTP connection.
+- [ListFiles](https://docs.frends.com/tasks/tasks/sftp/listfiles.md): List files from set destination directory with optional file mask through SFTP connection.
+- [MoveFile](https://docs.frends.com/tasks/tasks/sftp/movefile.md): Moves files in SFTP server.
+- [ReadFile](https://docs.frends.com/tasks/tasks/sftp/readfile.md): Reads a file through SFTP connection.
+- [RenameFile](https://docs.frends.com/tasks/tasks/sftp/renamefile.md): Renames a file in SFTP server.
+- [UploadFiles](https://docs.frends.com/tasks/tasks/sftp/uploadfiles.md): Uploads files through SFTP connection.
+- [WriteFile](https://docs.frends.com/tasks/tasks/sftp/writefile.md): Writes string content to a file through SFTP connection.
+- [Shopify](https://docs.frends.com/tasks/tasks/shopify.md): Shopify is a commerce platform for online stores and retail point-of-sale systems.
+- [CreateProduct](https://docs.frends.com/tasks/tasks/shopify/createproduct.md): Creates a product in Shopify
+- [DeleteProduct](https://docs.frends.com/tasks/tasks/shopify/deleteproduct.md): Deletes a product in Shopify
+- [GetCustomer](https://docs.frends.com/tasks/tasks/shopify/getcustomer.md): Retrieves a customer from Shopify
+- [GetOrders](https://docs.frends.com/tasks/tasks/shopify/getorders.md): Retrieves orders from Shopify
+- [GetProduct](https://docs.frends.com/tasks/tasks/shopify/getproduct.md): Retrieves a product from Shopify
+- [UpdateProduct](https://docs.frends.com/tasks/tasks/shopify/updateproduct.md): Updates a product in Shopify
+- [Slack](https://docs.frends.com/tasks/tasks/slack.md): Slack is a messaging platform for teams and workplace collaboration.
+- [DeleteMessage](https://docs.frends.com/tasks/tasks/slack/deletemessage.md): Task to delete existing Slack messages.
+- [GetChannelMessages](https://docs.frends.com/tasks/tasks/slack/getchannelmessages.md): Task to retrieve recent messages from a Slack channel, with optional parameters for pagination and thread inclusion.
+- [GetUserInfo](https://docs.frends.com/tasks/tasks/slack/getuserinfo.md): Task to retrieve information about a Slack user.
+- [ListChannels](https://docs.frends.com/tasks/tasks/slack/listchannels.md): Task to list channels from a Slack workspace.
+- [SendMessage](https://docs.frends.com/tasks/tasks/slack/sendmessage.md): Task to send message to Slack channels or users with support for text, blocks, and link/media previews.
+- [UpdateMessage](https://docs.frends.com/tasks/tasks/slack/updatemessage.md): Task to update existing Slack messages with support for text content, Block Kit formatting, and link/media previews.
+- [SmartDialog](https://docs.frends.com/tasks/tasks/smartdialog.md): SmartDialog is a powerful and reliable messaging platform.
+- [SendSmartMessage](https://docs.frends.com/tasks/tasks/smartdialog/sendsmartmessage.md): Send message using Smart parameters
+- [Smb](https://docs.frends.com/tasks/tasks/smb.md)
+- [CopyFiles](https://docs.frends.com/tasks/tasks/smb/copyfiles.md): Task for copying files inside SMB share.
+- [CreateDirectory](https://docs.frends.com/tasks/tasks/smb/createdirectory.md): Task to create a directory on SMB share.
+- [DeleteDirectory](https://docs.frends.com/tasks/tasks/smb/deletedirectory.md): Task for deleting SMB directories.
+- [DeleteFiles](https://docs.frends.com/tasks/tasks/smb/deletefiles.md): Deletes files from an SMB share by path or matching pattern.
+- [ListFiles](https://docs.frends.com/tasks/tasks/smb/listfiles.md): Task to list files from the SMB server.
+- [MoveDirectory](https://docs.frends.com/tasks/tasks/smb/movedirectory.md): Task to move a directory inside the SMB share.
+- [MoveFiles](https://docs.frends.com/tasks/tasks/smb/movefiles.md): Moves files between directories on SMB share.
+- [ReadFile](https://docs.frends.com/tasks/tasks/smb/readfile.md): Reads a file from directory.
+- [RenameFile](https://docs.frends.com/tasks/tasks/smb/renamefile.md): Renames a file on a remote SMB share.
+- [WriteFile](https://docs.frends.com/tasks/tasks/smb/writefile.md): Write file to SMB server.
+- [SMTP](https://docs.frends.com/tasks/tasks/smtp.md): SMTP (Simple Mail Transfer Protocol) is a standard for sending email messages.
+- [SendEmail](https://docs.frends.com/tasks/tasks/smtp/sendemail.md): Sends email message with optional attachments.
+- [Snowflake](https://docs.frends.com/tasks/tasks/snowflake.md): Snowflake is an analytic cloud data platform that powers the AI Data Cloud.
+- [BatchOperation](https://docs.frends.com/tasks/tasks/snowflake/batchoperation.md): Task to run a batch operation in Snowflake
+- [ExecuteQuery](https://docs.frends.com/tasks/tasks/snowflake/executequery.md): Execute Snowflake query.
+- [SOAP](https://docs.frends.com/tasks/tasks/soap.md): SOAP (Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services.
+- [Read](https://docs.frends.com/tasks/tasks/soap/read.md): Task to read Soap payload
+- [Request](https://docs.frends.com/tasks/tasks/soap/request.md): Sends a SOAP request using the provided connection, input, and options.
+- [Utilities](https://docs.frends.com/tasks/tasks/utilities.md): Frends utility tasks. Frends utility tasks are common helper tasks, such as Sleep or Throw Exception etc.
+- [AlwaysTrue](https://docs.frends.com/tasks/tasks/utilities/alwaystrue.md)
+- [Echo](https://docs.frends.com/tasks/tasks/utilities/echo.md): Returns given string.
+- [RunProcess](https://docs.frends.com/tasks/tasks/utilities/runprocess.md): Frends Task for running cmd or bash commands in a local machine.
+- [Sleep](https://docs.frends.com/tasks/tasks/utilities/sleep.md): A cancellable task that will complete after a time delay.
+- [ThrowException](https://docs.frends.com/tasks/tasks/utilities/throwexception.md): Throws an exception with given message.
+- [X12](https://docs.frends.com/tasks/tasks/x12.md): X12 is a North American EDI standard for exchanging structured business documents electronically.
+- [ConvertToJson](https://docs.frends.com/tasks/tasks/x12/converttojson.md): Converts X12 Edi string to Json.
+- [CreateFromJson](https://docs.frends.com/tasks/tasks/x12/createfromjson.md): Creates X12 Edi string from Json.
+- [XML](https://docs.frends.com/tasks/tasks/xml.md): XML is a markup language for storing and exchanging structured data.
+- [ConvertJsonToXml](https://docs.frends.com/tasks/tasks/xml/convertjsontoxml.md): Frends Task for converting Json string to Xml string.
+- [SignXml](https://docs.frends.com/tasks/tasks/xml/signxml.md): Sign an XML document.
+- [Validate](https://docs.frends.com/tasks/tasks/xml/validate.md): Validates XML using XSD schemas.
+- [XPathQuery](https://docs.frends.com/tasks/tasks/xml/xpathquery.md): Queries XML for data using XPath query.
+- [XSLT](https://docs.frends.com/tasks/tasks/xslt.md): XSLT is a language for transforming XML documents into either XML or other formats.
+- [Transform](https://docs.frends.com/tasks/tasks/xslt/transform.md): Transforms XML using XSLT. The XSLT version 1.0, 2.0, or 3.0 is determined by the version attribute in the stylesheet element. The version attribute is required.
+- [ZIP](https://docs.frends.com/tasks/tasks/zip.md): ZIP is a file compression format for bundling multiple files or directories into a single file.
+- [CreateArchive](https://docs.frends.com/tasks/tasks/zip/createarchive.md): Create zip file from selected files and/or folders. Created zip file content can be flatten and file can be protected with password.
+- [ExtractArchive](https://docs.frends.com/tasks/tasks/zip/extractarchive.md): A Frends task for extracting zip archives.
+- [Other](https://docs.frends.com/tasks/tasks/other.md): Other Tasks for Frends that don't have category main page yet.
+- [Frends.ManagementApi.Request](https://docs.frends.com/tasks/tasks/other/frends.managementapi.request.md): Task for Frends Management API related operations.
+
+## Business Automation Portal
+
+- [Business Automation Portal](https://docs.frends.com/bap/business-automation-portal.md)
+- [Organizations](https://docs.frends.com/bap/general/organizations.md): How to manage Organizations in BAP.
+- [Users](https://docs.frends.com/bap/general/users.md): How to manage Users in BAP.
+- [Shop Configuration](https://docs.frends.com/bap/general/shop-configuration.md): Shop settings available to all Organizations.
+- [Look & Feel](https://docs.frends.com/bap/general/look-and-feel.md): Configuration options for look and feel.
+- [Custom CSS](https://docs.frends.com/bap/general/look-and-feel/custom-css.md): Instructions and specific values to use or override.
+- [Single Sign-On](https://docs.frends.com/bap/general/single-sign-on.md): How to configure SSO for your Portal.
+- [How to create a Process from a Template](https://docs.frends.com/bap/guides/how-to-create-a-process-from-a-template.md): The basic operation in BAP, apart from running the Processes.
+- [How to use pre-created Processes](https://docs.frends.com/bap/guides/how-to-use-pre-created-processes.md): Using Processes from Frends in your Business Automation Portal.
+- [Frends Version Compatibility](https://docs.frends.com/bap/release-notes/frends-version-compatibility.md): What version of Frends is required for BAP.
+- [BAP Version 1.0.5](https://docs.frends.com/bap/release-notes/bap-version-1.0.5.md): Released on 23rd of April 2026
+- [BAP Version 1.0.4](https://docs.frends.com/bap/release-notes/bap-version-1.0.4.md): Released on 17th of March 2026
+- [BAP Version 1.0.3](https://docs.frends.com/bap/release-notes/bap-version-1.0.3.md): Released on 15th of December 2025
+- [BAP Version 1.0.2](https://docs.frends.com/bap/release-notes/bap-version-1.0.2.md): Released on 22nd of September 2025
+- [BAP Version 1.0.1](https://docs.frends.com/bap/release-notes/bap-version-1.0.1.md): Released on 1st of April 2025
+
+## API Portal
+
+- [API Portal](https://docs.frends.com/api-portal/api-portal.md)
+- [Getting Started](https://docs.frends.com/api-portal/general/getting-started.md): How to start using Frends API Portal.
+- [How to create API Products](https://docs.frends.com/api-portal/general/how-to-create-api-products.md): API Products are the published APIs from a Frends Tenant.
+- [Preparing your Frends API for publishing](https://docs.frends.com/api-portal/general/preparing-your-frends-api-for-publishing.md): APIs published in API Portal require authentication to be set up separately.
+- [How to use API Products](https://docs.frends.com/api-portal/general/how-to-use-api-products.md): With Products created, how do you use them?
+- [Customizing your API Portal](https://docs.frends.com/api-portal/general/customizing-your-api-portal.md): How to adjust the look\&feel of your portal.
+- [Audit Log & Security](https://docs.frends.com/api-portal/general/audit-log-and-security.md): Security and auditability built-in.
+- [Admin Roles & User Management](https://docs.frends.com/api-portal/general/admin-roles-and-user-management.md): Different roles for users in API Portal.
+- [Changing user's role in API Portal](https://docs.frends.com/api-portal/general/changing-users-role-in-api-portal.md): How to promote a user to admin role.
+- [Frends Version Compatibility](https://docs.frends.com/api-portal/release-notes/frends-version-compatibility.md): What version of Frends is required for API Portal.
+- [API Portal Version 1.0.2](https://docs.frends.com/api-portal/release-notes/api-portal-version-1.0.2.md): Released on 29th of June 2026
+- [API Portal Version 1.0.1](https://docs.frends.com/api-portal/release-notes/api-portal-version-1.0.1.md): Released on 5th of December 2025
+
+## Release Notes
+
+- [Release Notes](https://docs.frends.com/release-notes/readme.md)
+- [Version Numbering](https://docs.frends.com/release-notes/version-numbering.md)
+- [New Features](https://docs.frends.com/release-notes/frends-6.3/new-features.md): New features introduced in Frends 6.3
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-6.3/breaking-changes.md)
+- [Version 6.3.0](https://docs.frends.com/release-notes/frends-6.3/version-6.3.0.md)
+- [New Features](https://docs.frends.com/release-notes/frends-6.2/new-features.md): New features introduced in Frends 6.2
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-6.2/breaking-changes.md)
+- [Version 6.2.3](https://docs.frends.com/release-notes/frends-6.2/version-6.2.3.md): Released on 9th of April 2026
+- [Version 6.2.2](https://docs.frends.com/release-notes/frends-6.2/version-6.2.2.md): Released on 20th of March 2026
+- [Version 6.2.1](https://docs.frends.com/release-notes/frends-6.2/version-6.2.1.md): Released on 16th of February 2026
+- [Version 6.2.0](https://docs.frends.com/release-notes/frends-6.2/version-6.2.0.md): Released on 30th of September 2025
+- [New Features](https://docs.frends.com/release-notes/frends-6.1/new-features.md): New features introduced in Frends 6.1
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-6.1/breaking-changes.md)
+- [Version 6.1.4](https://docs.frends.com/release-notes/frends-6.1/version-6.1.4.md): Released on 2nd of February 2026
+- [Version 6.1.3](https://docs.frends.com/release-notes/frends-6.1/version-6.1.3.md): Released on 3rd of December 2025
+- [Version 6.1.2](https://docs.frends.com/release-notes/frends-6.1/version-6.1.2.md): Released on 30th of September 2025
+- [Version 6.1.1](https://docs.frends.com/release-notes/frends-6.1/version-6.1.1.md): Released on 2nd of September 2025
+- [Version 6.1.0](https://docs.frends.com/release-notes/frends-6.1/version-6.1.0.md): Released on 7th of July 2025
+- [New Features](https://docs.frends.com/release-notes/frends-6.0/new-features.md): New features introduced in Frends 6.0
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-6.0/breaking-changes.md)
+- [Version 6.0.6](https://docs.frends.com/release-notes/frends-6.0/version-6.0.6.md): Released on 11th of September 2025
+- [Version 6.0.5](https://docs.frends.com/release-notes/frends-6.0/version-6.0.5.md): Released on 20th of May 2025
+- [Version 6.0.4](https://docs.frends.com/release-notes/frends-6.0/version-6.0.4.md): Released on 23rd of April 2025
+- [Version 6.0.3](https://docs.frends.com/release-notes/frends-6.0/version-6.0.3.md): Released on 6th of March 2025
+- [Version 6.0.2](https://docs.frends.com/release-notes/frends-6.0/version-6.0.2.md): Released on 20th of February 2025
+- [Version 6.0.1](https://docs.frends.com/release-notes/frends-6.0/version-6.0.1.md): Released on 16th of January 2025
+- [Version 6.0.0](https://docs.frends.com/release-notes/frends-6.0/version-6.0.0.md): Released on 20th of October 2024
+- [New Features](https://docs.frends.com/release-notes/frends-5.8/new-features.md): New features introduced in Frends 5.8
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-5.8/breaking-changes.md)
+- [Version 5.8.6](https://docs.frends.com/release-notes/frends-5.8/version-5.8.6.md): Released on 20th of August 2025
+- [Version 5.8.5](https://docs.frends.com/release-notes/frends-5.8/version-5.8.5.md): Released on 4th of March 2025
+- [Version 5.8.4](https://docs.frends.com/release-notes/frends-5.8/version-5.8.4.md): Released on 9th of January 2025
+- [Version 5.8.3](https://docs.frends.com/release-notes/frends-5.8/version-5.8.3.md): Released on 16th of December 2024
+- [Version 5.8.2](https://docs.frends.com/release-notes/frends-5.8/version-5.8.2.md): Released on 14th of November 2024
+- [Version 5.8.1](https://docs.frends.com/release-notes/frends-5.8/version-5.8.1.md): Released on 13th of September 2024 (hotfixed 8th of October 2024)
+- [Version 5.8.0](https://docs.frends.com/release-notes/frends-5.8/version-5.8.0.md): Released on 27th of June 2024
+- [New Features](https://docs.frends.com/release-notes/frends-5.7/new-features.md): New features introduced in Frends 5.7
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-5.7/breaking-changes.md)
+- [Version 5.7.5](https://docs.frends.com/release-notes/frends-5.7/version-5.7.5.md): Released on 10th of December 2024
+- [Version 5.7.4](https://docs.frends.com/release-notes/frends-5.7/version-5.7.4.md): Released on 6th of September 2024 (hotfixed 2nd of October)
+- [Version 5.7.3](https://docs.frends.com/release-notes/frends-5.7/version-5.7.3.md): Released on 19th of June 2024 (hotfixed 13th of August 2024)
+- [Version 5.7.2](https://docs.frends.com/release-notes/frends-5.7/version-5.7.2.md): Released on 30th of April 2024
+- [Version 5.7.1](https://docs.frends.com/release-notes/frends-5.7/version-5.7.1.md): Released on 2nd of April 2024
+- [Version 5.7.0](https://docs.frends.com/release-notes/frends-5.7/version-5.7.0.md): Released on 29th of February 2024
+- [Frends Platform API 1.0](https://docs.frends.com/release-notes/frends-5.7/frends-platform-api-1.0.md): Released on 29th of February 2024
+- [New Features](https://docs.frends.com/release-notes/frends-5.6/new-features.md): New features introduced in Frends 5.6
+- [Breaking Changes](https://docs.frends.com/release-notes/frends-5.6/breaking-changes.md)
+- [Version 5.6.5](https://docs.frends.com/release-notes/frends-5.6/version-5.6.5.md): Released on 23rd of November 2023
+- [Version 5.6.4](https://docs.frends.com/release-notes/frends-5.6/version-5.6.4.md): Released on 10th of November 2023
+- [Version 5.6.3](https://docs.frends.com/release-notes/frends-5.6/version-5.6.3.md): Released on 25th of September 2023
+- [Version 5.6.2](https://docs.frends.com/release-notes/frends-5.6/version-5.6.2.md): Released on 17th of August 2023
+- [Version 5.6.1](https://docs.frends.com/release-notes/frends-5.6/version-5.6.1.md): Released on 30th of March 2023
+- [Version 5.6.0](https://docs.frends.com/release-notes/frends-5.6/version-5.6.0.md): Released on 19th of January 2023
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.frends.com/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
