@@ -135,19 +135,17 @@ apis:
   properties:
   - type: Documentation
     url: https://docs.frends.com/
-- aid: frends:frends-api
-  name: Frends API
-  description: 'Frends API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-03); not
-
-    the provider''s own document.'
-  humanURL: https://docs.frends.com/reference/reference.md
+- aid: frends:frends-reference-api
+  name: Frends Reference API
+  description: The Reference API from Frends — 6 operation(s) for reference.
+  humanURL: https://docs.frends.com/
+  tags:
+  - Reference
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/frends-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/frends-reference-api-openapi.yml
   - type: JSONSchema
     url: json-schema/frends-get-reference-triggers-triggerid-response-schema.json
-
 integrations:
 - name: ISV
 - name: SI
