@@ -1,9 +1,14 @@
 aid: frends
+
 name: Frends
-description: >-
-  Frends is an integration platform as a service (iPaaS) that provides
-  enterprise-grade API and integration capabilities.
+
+description: Frends provides a European AI‑augmented integration platform (iPaaS) that combines workflow automation, API management, data and
+  application integration, and AI orchestration on a low‑code environment. It is targeted at enterprise customers across industries that need
+  to connect legacy systems, ERP, cloud services, and embed AI while maintaining compliance with GDPR and EU regulations. The platform can be
+  deployed in cloud, on‑premises, or hybrid settings and supports long‑running processes and governed AI.
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -15,6 +20,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -27,67 +33,157 @@ accessModel:
   - plans
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frends.png
+
 tags:
+- Integration
+- iPaaS
+- API Management
+- Workflow Automation
+- Enterprise Automation
+- AI Orchestration
+- Data Integration
+- Hybrid Deployment - Integration - iPaaS
+
+url: https://raw.githubusercontent.com/api-evangelist/frends/refs/heads/main/apis.yml
+
+created: '2026-03-16'
+
+modified: '2026-04-28'
+
+specificationVersion: '0.23'
+
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+
+common:
+- type: FinOps
+  url: finops/frends-finops.yml
+- type: RateLimits
+  url: rate-limits/frends-rate-limits.yml
+- type: Plans
+  url: plans/frends-plans-pricing.yml
+- type: Spectral
+  url: rules/frends-rules.yml
+- type: JSONLD
+  url: json-ld/frends-context.jsonld
+- type: Vocabulary
+  url: vocabulary/frends-vocabulary.yml
+- type: DataModel
+  url: data-model/frends-data-model.yml
+- type: ChangeLog
+  url: changelog/frends-changelog.yml
+- type: Authentication
+  url: authentication/frends-authentication.yml
+- type: Conformance
+  url: conformance/frends-conformance.yml
+- type: LLMsTxt
+  url: llms/frends-llms.txt
+- type: WellKnown
+  url: well-known/frends-well-known.yml
+- type: Hosts
+  url: hosts/frends-hosts.yml
+- type: Vendors
+  url: vendors/frends-vendors.yml
+- type: TermsOfService
+  url: https://frends.com/legal/terms-of-service/
+- type: StatusPage
+  url: https://status.frends.com/
+- type: Security
+  url: https://frends.com/legal/security
+- type: Roadmap
+  url: https://frends.com/ipaas/roadmap
+- type: PrivacyPolicy
+  url: https://frends.com/legal/privacy-policy
+- type: Pricing
+  url: https://frends.com/pricing
+- type: Newsroom
+  url: https://frends.com/press
+- type: ChangeLog
+  url: https://docs.frends.com/release-notes
+- type: Blog
+  url: https://frends.com/de/blog
+- type: APIReference
+  url: https://docs.frends.com/reference
+- type: GettingStarted
+  url: https://docs.frends.com/get-started/getting-started-guide
+- type: DomainSecurity
+  url: security/frends-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/FrendsPlatform
+- type: LinkedIn
+  url: https://www.linkedin.com/company/frends-app
+- type: Website
+  url: https://www.frends.com/
+- type: Documentation
+  url: https://docs.frends.com/
+- type: Integrations
+  url: https://frends.com/partners
+- type: LlmsText
+  url: https://docs.frends.com/llms.txt
+
+apis:
+- aid: frends:frends
+  name: Frends API
+  description: Frends iPaaS provides integration and automation capabilities through REST APIs.
+  humanURL: https://docs.frends.com/
+  tags:
   - Integration
   - iPaaS
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/frends/refs/heads/main/apis.yml
-created: '2026-03-16'
-modified: '2026-04-28'
-specificationVersion: '0.23'
-apis:
-  - aid: frends:frends
-    name: Frends API
-    description: >-
-      Frends iPaaS provides integration and automation capabilities through
-      REST APIs.
-    humanURL: https://docs.frends.com/
-    tags:
-      - Integration
-      - iPaaS
-    properties:
-      - type: Documentation
-        url: https://docs.frends.com/
-common:
-  - type: DomainSecurity
-    url: security/frends-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/FrendsPlatform
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/frends-app
-  - type: Website
-    url: https://www.frends.com/
+  properties:
   - type: Documentation
     url: https://docs.frends.com/
-  - type: Integrations
-    url: https://frends.com/partners
-  - type: LlmsText
-    url: https://docs.frends.com/llms.txt
+- aid: frends:frends-api
+  name: Frends API
+  description: 'Frends API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-03); not
+
+    the provider''s own document.'
+  humanURL: https://docs.frends.com/reference/reference.md
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/frends-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/frends-get-reference-triggers-triggerid-response-schema.json
+
 integrations:
-  - name: ISV
-  - name: SI
-  - name: SI dotSource
-  - name: SI Solita Denmark
-  - name: SI Harmony
-  - name: SI knowit
-  - name: SI NORD Group
-  - name: SI Dekiru Solutions
-  - name: SI Evitec
-  - name: SI Axonis
-  - name: ISV Miljödata
-  - name: SI Nortal
-  - name: SI Redpill Linpro
-  - name: SI Voglio
-  - name: SI XLENT
-  - name: SI PWC Norway
-  - name: SI Integration.team
-  - name: SI TietoEvry
-  - name: SI yim GmbH
-  - name: SI Matic Tribe
-  - name: SI AmberTech Solutions
-  - name: SI Netum
-  - name: SI Odycron Consulting
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- name: ISV
+- name: SI
+- name: SI dotSource
+- name: SI Solita Denmark
+- name: SI Harmony
+- name: SI knowit
+- name: SI NORD Group
+- name: SI Dekiru Solutions
+- name: SI Evitec
+- name: SI Axonis
+- name: ISV Miljödata
+- name: SI Nortal
+- name: SI Redpill Linpro
+- name: SI Voglio
+- name: SI XLENT
+- name: SI PWC Norway
+- name: SI Integration.team
+- name: SI TietoEvry
+- name: SI yim GmbH
+- name: SI Matic Tribe
+- name: SI AmberTech Solutions
+- name: SI Netum
+- name: SI Odycron Consulting
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's documentation is hosted on Gitbook and contains no publicly accessible OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL specifications.
+  evidence:
+  - url: https://docs.frends.com/api-portal
+    status: 200
+  checked: '2026-10-03'
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 22
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

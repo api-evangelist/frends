@@ -1,0 +1,81 @@
+generated: '2026-10-03'
+method: probed
+source: pre-flight dossier (docs platform, portal detections) + CNAME chains and response headers of the hosts apis.yml names
+registry: all/0-working/vendors.yml
+areas_vocabulary:
+- documentation
+- developer-portal
+- api-gateway
+- cdn
+- hosting
+- sdk-generation
+- api-collections
+- status-page
+- support
+- community
+- identity
+- mcp-hosting
+vendors:
+- vendor: cloudflare
+  name: Cloudflare
+  area: cdn
+  host: www.frends.com
+  evidence: header:cf-ray
+  signal: header
+  confidence: high
+  kin_score:
+  - https_enforced
+  - hsts
+- vendor: gitbook
+  name: GitBook
+  area: documentation
+  host: docs.frends.com
+  evidence: cname:gitbook.io
+  signal: docs-platform
+  confidence: high
+  kin_score:
+  - openapi_published
+  - llms_txt
+- vendor: hubspot
+  name: HubSpot
+  area: hosting
+  host: www.frends.com
+  evidence: cname:hscoscdn
+  signal: cname
+  confidence: high
+  kin_score: []
+- vendor: vercel
+  name: Vercel
+  area: hosting
+  host: docs.frends.com
+  evidence: header:x-vercel-id
+  signal: header
+  confidence: high
+  kin_score: []
+- vendor: auth0
+  name: Auth0 (Okta)
+  area: identity
+  host: auth.frends.com
+  evidence: frends-auth-oauth-authorization-server.json names auth0 in its OAuth metadata
+  signal: oauth-metadata
+  confidence: high
+  kin_score:
+  - authentication
+reliance:
+  areas_vendor_served:
+  - cdn
+  - documentation
+  - hosting
+  - identity
+  vendor_count: 5
+  areas_observed: 12
+  share_of_observable_areas: 0.333
+  note: areas where a third party was DETECTED serving this provider; an area absent here was either self-run or not observed, and this script
+    cannot tell those apart
+checked:
+- 'docs-platform: gitbook'
+- status.frends.com (StatusPage)
+- docs.frends.com (APIReference)
+- docs.frends.com (GettingStarted)
+- www.frends.com (Website)
+- docs.frends.com (Documentation)
