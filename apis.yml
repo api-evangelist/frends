@@ -37,7 +37,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/frends/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: frends:frends
@@ -53,6 +53,10 @@ apis:
       - type: Documentation
         url: https://docs.frends.com/
 common:
+  - url: https://frends.com/insights
+    type: Blog
+  - url: https://frends.com/insights/rss.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/frends-domain-security.yml
   - type: GitHubOrganization
