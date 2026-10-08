@@ -53,6 +53,12 @@ apis:
       - type: Documentation
         url: https://docs.frends.com/
 common:
+  - type: Plans
+    url: plans/frends-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/frends-rate-limits.yml
+  - type: FinOps
+    url: finops/frends-finops.yml
   - url: https://frends.com/insights
     type: Blog
   - url: https://frends.com/insights/rss.xml
