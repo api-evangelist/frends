@@ -1,0 +1,30 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.frends.com/bap/release-notes/frends-version-compatibility.md
+sources:
+- https://docs.frends.com/bap/release-notes/frends-version-compatibility.md
+- https://docs.frends.com/bap/release-notes/bap-version-1.0.5.md
+- https://docs.frends.com/bap/release-notes/bap-version-1.0.4.md
+- https://docs.frends.com/bap/release-notes/bap-version-1.0.3.md
+entries:
+- breaking: false
+  highlights:
+  - Business Automation Portal version 1.0.5 introduces support for Promoted Variables, allowing users to see key Process data directly in the
+    Instance list and Instance details views.
+  - This release also includes execution graph reliability improvements and a framework upgrade to .NET 10.
+  date: '2026-04-23'
+- breaking: false
+  highlights:
+  - Business Automation Portal version 1.0.4 introduces support for Promoted Variables, allowing users to see key Process data directly in the
+    Instance list and Instance details views.
+  - This release also includes execution graph reliability improvements and a framework upgrade to .NET 10.
+  date: '2026-03-17'
+- breaking: false
+  highlights:
+  - This release includes support for Long-Running Processes, introduced in Frends version 6.2, as a new feature.
+  - This release includes the new features, improvements and bug fixes released with earlier Business Automation Portal versions.
+  date: '2025-12-15'
+current_version: 1.0.5
+note: Versioning scheme follows semantic versioning (major.minor.patch).
+docs: https://docs.frends.com/bap/release-notes/frends-version-compatibility.md

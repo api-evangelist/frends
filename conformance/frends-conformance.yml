@@ -1,0 +1,26 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.frends.com/security/ai-trust-and-transparency.md
+sources:
+- https://docs.frends.com/security/ai-trust-and-transparency.md
+- https://docs.frends.com/docs/frends-6.2.0/security/ai-trust-and-transparency.md
+- https://docs.frends.com/docs/frends-6.1.0/security/ai-trust-and-transparency.md
+- https://docs.frends.com/security/integration-security.md
+standards:
+- id: gdpr
+  conforms: true
+  evidence: As a European platform, Frends builds GDPR and EU AI Act compliance into its AI features from day one.
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: 'securitySchemes: API_Key (apiKey), Basic_Authentication (http)'
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://docs.frends.com/security/ai-trust-and-transparency.md

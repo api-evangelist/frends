@@ -29,6 +29,7 @@
 - [Agentic AI](https://docs.frends.com/frends-development/agentic-ai.md): AI that acts, not just answers.
 - [Intelligent AI Connector](https://docs.frends.com/frends-development/agentic-ai/intelligent-ai-connector.md): Allowing AI to participate in your Processes.
 - [Model Context Protocol](https://docs.frends.com/frends-development/agentic-ai/model-context-protocol.md): Connect AI to your systems through a standard protocol.
+- [Frends MCP](https://docs.frends.com/frends-development/agentic-ai/frends-mcp.md): Let AI use your Frends Tenant.
 - [AI Assistance](https://docs.frends.com/frends-development/ai-features.md): In Frends, AI is not an afterthought.
 - [AI Assisted Development](https://docs.frends.com/frends-development/ai-features/ai-assisted-development.md): AI in Frends will help you with configuring Tasks as well as create code.
 - [Documentation Generation](https://docs.frends.com/frends-development/ai-features/documentation-generation.md): Automate the least favorite task of all development with AI.
@@ -201,14 +202,16 @@
 - [How to work with SOAP in Frends](https://docs.frends.com/guides/development/how-to-work-with-soap-in-frends.md): Sending and receiving SOAP messages with Frends.
 - [Using DMN Task in Frends Processes](https://docs.frends.com/guides/development/using-dmn-task-in-frends-processes.md): How to simplify decision trees with DMN Task.
 - [Frends Process Optimization](https://docs.frends.com/guides/development/frends-process-optimization.md): How to optimize performance in Frends Processes.
-- [How to use on-premise Ollama with AI Connector](https://docs.frends.com/guides/ai-features/how-to-use-on-premise-ollama-with-ai-connector.md): Using your own Ollama installation to perform operations with AI.
-- [How to use Azure AI Inference service with AI Connector](https://docs.frends.com/guides/ai-features/how-to-use-azure-ai-inference-service-with-ai-connector.md): Using your own Azure AI Inference service and API.
-- [Using Fine-Tuned Models with Azure AI Inference in Frends](https://docs.frends.com/guides/ai-features/using-fine-tuned-models-with-azure-ai-inference-in-frends.md): How to use models tuned specifically for your use case.
+- [How to Create a Shareable Frends Template](https://docs.frends.com/guides/development/how-to-create-a-shareable-frends-template.md): How to create a template that is easily shared to others.
+- [How to provide data to AI Connector in Frends](https://docs.frends.com/guides/ai-features/how-to-provide-data-to-ai-connector-in-frends.md): AI Connector will only receive the data you provide.
 - [Creating semi-deterministic AI Process](https://docs.frends.com/guides/ai-features/creating-semi-deterministic-ai-process.md): How to use AI reasoning with control flow from a Process.
 - [How to create Reusable AI Agents as Frends Subprocesses](https://docs.frends.com/guides/ai-features/how-to-create-reusable-ai-agents-as-frends-subprocesses.md): Reusable AI Agents as part of your Processes.
 - [How to implement a simple RAG in Frends](https://docs.frends.com/guides/ai-features/how-to-implement-a-simple-rag-in-frends.md): Retrieval-augmented generation at its simplest is a standard Frends Process with AI.
 - [How to tokenize data for AI](https://docs.frends.com/guides/ai-features/how-to-tokenize-data-for-ai.md): Using regexes and field value replacement for structured data to securely use AI.
-- [How to provide data to AI Connector in Frends](https://docs.frends.com/guides/ai-features/how-to-provide-data-to-ai-connector-in-frends.md): AI Connector will only receive the data you provide.
+- [How to use on-premise Ollama with AI Connector](https://docs.frends.com/guides/ai-features/how-to-use-on-premise-ollama-with-ai-connector.md): Using your own Ollama installation to perform operations with AI.
+- [How to use Azure AI Inference service with AI Connector](https://docs.frends.com/guides/ai-features/how-to-use-azure-ai-inference-service-with-ai-connector.md): Using your own Azure AI Inference service and API.
+- [Using Fine-Tuned Models with Azure AI Inference in Frends](https://docs.frends.com/guides/ai-features/using-fine-tuned-models-with-azure-ai-inference-in-frends.md): How to use models tuned specifically for your use case.
+- [Setting up Entra ID OAuth for MCP Triggers](https://docs.frends.com/guides/ai-features/setting-up-entra-id-oauth-for-mcp-triggers.md): How to use your own IDM for authenticating MCP Tools from Frends.
 - [Deploying integrations](https://docs.frends.com/guides/integration-management/deploying-integrations.md): How to deploy a Process to another Agent Group.
 - [How to perform actions to multiple Processes](https://docs.frends.com/guides/integration-management/how-to-perform-actions-to-multiple-processes.md): You can manage more than one Process at a time.
 - [How to view integration logs](https://docs.frends.com/guides/integration-management/how-to-view-integration-logs.md): Frends includes powerful view to see what happened during a specific integration flow.
@@ -242,6 +245,7 @@
 - [Options for external logging](https://docs.frends.com/guides/setup-and-installation/options-for-external-logging.md): Options exist for obtaining and storing Process logs outside Frends.
 - [Changing the default Development Agent](https://docs.frends.com/guides/setup-and-installation/changing-the-default-development-agent.md): How to replace the default development Agent with another Agent.
 - [Collecting crash dump from Frends Agent](https://docs.frends.com/guides/setup-and-installation/collecting-crash-dump-from-frends-agent.md): Obtaining more information in case of an Agent crashing.
+- [Tuning memory usage & recovery for Frends Agent on Linux](https://docs.frends.com/guides/setup-and-installation/tuning-memory-usage-and-recovery-for-frends-agent-on-linux.md): Optimizing Frends Agent's memory usage allows more stable execution and easier recovery.
 
 ## Reference
 
@@ -305,6 +309,10 @@
 - [Passthrough APIs](https://docs.frends.com/reference/api-management/passthrough-apis.md): Passing requests as-is to another URL.
 - [API Policies](https://docs.frends.com/reference/api-management/api-policies.md): Authentication and logging settings for the APIs published from Frends.
 - [API Monitoring](https://docs.frends.com/reference/api-management/api-monitoring.md)
+- [Environments & Agent Groups](https://docs.frends.com/reference/administration/environments-and-agent-groups.md): Manage the structure of your Frends deployment.
+- [Environments](https://docs.frends.com/reference/administration/environments-and-agent-groups/environments.md): Logical containers of Agent Groups.
+- [Agent Groups](https://docs.frends.com/reference/administration/environments-and-agent-groups/agent-groups.md): Grouping Agents that perform the same operations with same configuration.
+- [Agents & API Gateways](https://docs.frends.com/reference/administration/environments-and-agent-groups/agents-and-api-gateways.md): The runtime components of Frends.
 - [Monitoring Rules](https://docs.frends.com/reference/administration/monitoring-rules.md): Monitoring Processes en masse.
 - [Role-Based Access Control](https://docs.frends.com/reference/administration/role-based-access-control.md): Details on how to fine tune access to your Frends Tenant.
 - [Process Log Settings](https://docs.frends.com/reference/administration/process-log-settings.md): Settings available for adjusting Process logging.
@@ -327,6 +335,10 @@
 - [Tags](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/tags.md)
 - [Models](https://docs.frends.com/reference/frends-platform-api/platform-api-reference/models.md)
 - [Audit Trail Log API](https://docs.frends.com/reference/frends-platform-api/audit-trail-log-api.md): Additional audit logging feature available in Frends Platform API.
+- [How to connect an AI client to Frends MCP](https://docs.frends.com/reference/frends-mcp/how-to-connect-an-ai-client-to-frends-mcp.md): Allowing AI access to your Frends Tenant.
+- [Frends MCP Permissions](https://docs.frends.com/reference/frends-mcp/frends-mcp-permissions.md): Allow AI to use only what it needs for your tasks.
+- [Frends MCP Tools](https://docs.frends.com/reference/frends-mcp/frends-mcp-tools.md): Tools available for AI Clients.
+- [Frends MCP skills for AI clients](https://docs.frends.com/reference/frends-mcp/frends-mcp-skills-for-ai-clients.md): Frends also publishes pre-made skills for Frends MCP.
 - [Agent application settings](https://docs.frends.com/reference/architecture/agent-application-settings.md): Additional settings available for the cross platform Agents.
 - [Agent storage availability](https://docs.frends.com/reference/architecture/agent-storage-availability.md): What storage is directly accessible by Agents.
 - [Technical details for Frends Agent](https://docs.frends.com/reference/architecture/technical-details-for-frends-agent.md): This document describes a typical Frends Agent installation details.
@@ -455,19 +467,19 @@
 - [Introduction](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/introduction.md): Manage and operate your Frends Tenant using API.
 - [How to enable Frends Platform API](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/how-to-enable-frends-platform-api.md): It's not usable out of the box.
 - [Platform API Reference](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference.md): All the contents for the Platform API.
-- [AgentGroups](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/agentgroups.md)
+- [Agent Groups](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/agent-groups.md)
 - [Agents](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/agents.md)
-- [ApiAccessManagement](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/apiaccessmanagement.md)
-- [ApiPolicies](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/apipolicies.md)
-- [ApiSpecifications](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/apispecifications.md)
+- [Api Access Management](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/api-access-management.md)
+- [Api Policies](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/api-policies.md)
+- [Api Specifications](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/api-specifications.md)
 - [Environments](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/environments.md)
-- [EnvironmentVariables](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/environmentvariables.md)
-- [FrendsAiEndpointBuilder](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/frendsaiendpointbuilder.md)
-- [PrivateApplication](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/privateapplication.md)
-- [ProcessDeployments](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processdeployments.md)
+- [Environment Variables](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/environment-variables.md)
+- [Frends Ai Endpoint Builder](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/frends-ai-endpoint-builder.md)
+- [Private Application](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/private-application.md)
+- [Process Deployments](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/process-deployments.md)
 - [Processes](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processes.md)
-- [ProcessInstances](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processinstances.md)
-- [ProcessTemplates](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/processtemplates.md)
+- [Process Instances](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/process-instances.md)
+- [Process Templates](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/process-templates.md)
 - [Tags](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/tags.md)
 - [Models](https://docs.frends.com/reference/frends-6.1.0/frends-platform-api/platform-api-reference/models.md)
 - [Agent application settings](https://docs.frends.com/reference/frends-6.1.0/architecture/agent-application-settings.md): Additional settings available for the cross platform Agents.
@@ -501,6 +513,13 @@
 - [AS2](https://docs.frends.com/tasks/tasks/as2.md): AS2 is a secure protocol for transmitting structured business data over the internet using HTTP/S and digital certificates.
 - [SendMessage](https://docs.frends.com/tasks/tasks/as2/sendmessage.md): As2 SendMessage task sends a message to an AS2 server using the provided parameters
 - [ValidateAndParsePayload](https://docs.frends.com/tasks/tasks/as2/validateandparsepayload.md): Task to validate an incoming AS2 message, extracts the EDI payload, and generates an MDN receipt.
+- [AS3](https://docs.frends.com/tasks/tasks/as3.md): AS3 is a secure protocol for exchanging structured business data over FTP using encryption, digital signatures, and MDN receipts.
+- [ReceiveAndValidateMdn](https://docs.frends.com/tasks/tasks/as3/receiveandvalidatemdn.md): Task to receive and validate MDN receipts for sent AS3 messages
+- [ReceiveMessage](https://docs.frends.com/tasks/tasks/as3/receivemessage.md): Task to process incoming AS3 messages and generate MDN receipts
+- [SendMessage](https://docs.frends.com/tasks/tasks/as3/sendmessage.md): Task to send messages with AS3 protocol
+- [AS4](https://docs.frends.com/tasks/tasks/as4.md): AS4 is a secure protocol for exchanging structured business data over HTTP/S using SOAP-based messaging and digital certificates.
+- [SendMessage](https://docs.frends.com/tasks/tasks/as4/sendmessage.md): As4 SendMessage task sends a message to an AS4 server using the provided parameters.
+- [ValidateAndParsePayload](https://docs.frends.com/tasks/tasks/as4/validateandparsepayload.md): Task to validate an incoming AS4 message, extract the EDI payload, and generate a receipt.
 - [Avro](https://docs.frends.com/tasks/tasks/avro.md): Avro is a compact, schema-based data serialization system, enabling efficient data exchange and storage.
 - [Deserialize](https://docs.frends.com/tasks/tasks/avro/deserialize.md): Deserializes an Avro file to JSON format.
 - [Serialize](https://docs.frends.com/tasks/tasks/avro/serialize.md): Serializes JSON data into Avro binary format and saves it to a file.
@@ -818,6 +837,11 @@
 - [SOAP](https://docs.frends.com/tasks/tasks/soap.md): SOAP (Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services.
 - [Read](https://docs.frends.com/tasks/tasks/soap/read.md): Task to read Soap payload
 - [Request](https://docs.frends.com/tasks/tasks/soap/request.md): Sends a SOAP request using the provided connection, input, and options.
+- [Truugo](https://docs.frends.com/tasks/tasks/truugo.md): Truugo is a message validation platform. With Truugo API you can automate validation routines.
+- [EDIFACT](https://docs.frends.com/tasks/tasks/truugo/edifact.md): Truugo EDIFACT task for calling EDIFACT API endpoints. Depending on the selected endpoint, different parameters are required. Truugo API Swagger for reference: https://api.truugo.com/reference/
+- [Schematron](https://docs.frends.com/tasks/tasks/truugo/schematron.md): Task for calling Truugo Schematron API endpoints and returns its response. Truugo API Swagger for reference: https://api.truugo.com/reference/
+- [Validator](https://docs.frends.com/tasks/tasks/truugo/validator.md): Task for calling specified Truugo API Validator endpoint and returns its response. Truugo API Swagger for reference: https://api.truugo.com/reference/
+- [ValidatorListProfiles](https://docs.frends.com/tasks/tasks/truugo/validatorlistprofiles.md): Truugo API Validator list-profiles endpoint
 - [Utilities](https://docs.frends.com/tasks/tasks/utilities.md): Frends utility tasks. Frends utility tasks are common helper tasks, such as Sleep or Throw Exception etc.
 - [AlwaysTrue](https://docs.frends.com/tasks/tasks/utilities/alwaystrue.md)
 - [Echo](https://docs.frends.com/tasks/tasks/utilities/echo.md): Returns given string.
@@ -866,10 +890,13 @@
 - [Preparing your Frends API for publishing](https://docs.frends.com/api-portal/general/preparing-your-frends-api-for-publishing.md): APIs published in API Portal require authentication to be set up separately.
 - [How to use API Products](https://docs.frends.com/api-portal/general/how-to-use-api-products.md): With Products created, how do you use them?
 - [Customizing your API Portal](https://docs.frends.com/api-portal/general/customizing-your-api-portal.md): How to adjust the look\&feel of your portal.
+- [Custom CSS](https://docs.frends.com/api-portal/general/customizing-your-api-portal/custom-css.md): Instructions and specific values to use or override.
 - [Audit Log & Security](https://docs.frends.com/api-portal/general/audit-log-and-security.md): Security and auditability built-in.
 - [Admin Roles & User Management](https://docs.frends.com/api-portal/general/admin-roles-and-user-management.md): Different roles for users in API Portal.
+- [How to set up Entra ID SSO for API Portal](https://docs.frends.com/api-portal/general/admin-roles-and-user-management/how-to-set-up-entra-id-sso-for-api-portal.md): Allow your users to log in with their company credentials.
 - [Changing user's role in API Portal](https://docs.frends.com/api-portal/general/changing-users-role-in-api-portal.md): How to promote a user to admin role.
 - [Frends Version Compatibility](https://docs.frends.com/api-portal/release-notes/frends-version-compatibility.md): What version of Frends is required for API Portal.
+- [API Portal Version 1.0.3](https://docs.frends.com/api-portal/release-notes/api-portal-version-1.0.3.md): Released on 4th of September 2026
 - [API Portal Version 1.0.2](https://docs.frends.com/api-portal/release-notes/api-portal-version-1.0.2.md): Released on 29th of June 2026
 - [API Portal Version 1.0.1](https://docs.frends.com/api-portal/release-notes/api-portal-version-1.0.1.md): Released on 5th of December 2025
 
@@ -879,7 +906,9 @@
 - [Version Numbering](https://docs.frends.com/release-notes/version-numbering.md)
 - [New Features](https://docs.frends.com/release-notes/frends-6.3/new-features.md): New features introduced in Frends 6.3
 - [Breaking Changes](https://docs.frends.com/release-notes/frends-6.3/breaking-changes.md)
-- [Version 6.3.0](https://docs.frends.com/release-notes/frends-6.3/version-6.3.0.md)
+- [Version 6.3.2](https://docs.frends.com/release-notes/frends-6.3/version-6.3.2.md): Released on 15th of September 2026
+- [Version 6.3.1](https://docs.frends.com/release-notes/frends-6.3/version-6.3.1.md): Released on 26th of August 2026
+- [Version 6.3.0](https://docs.frends.com/release-notes/frends-6.3/version-6.3.0.md): Released on 4th of June 2026
 - [New Features](https://docs.frends.com/release-notes/frends-6.2/new-features.md): New features introduced in Frends 6.2
 - [Breaking Changes](https://docs.frends.com/release-notes/frends-6.2/breaking-changes.md)
 - [Version 6.2.3](https://docs.frends.com/release-notes/frends-6.2/version-6.2.3.md): Released on 9th of April 2026

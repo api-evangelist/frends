@@ -1,0 +1,254 @@
+openapi: 3.2.0
+info:
+  title: Frends Reference API
+  version: '2026-10-03'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-03: 6 operation(s) read from 24 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Frends has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 6
+    pages-with-code: 0
+    pages-read: 24
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-03'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.frends.com/reference/reference.md
+  - https://docs.frends.com/reference/shapes/shape.md
+  - https://docs.frends.com/reference/shapes/event-shapes.md
+  - https://docs.frends.com/reference/shapes/scope-shapes.md
+  - https://docs.frends.com/reference/shapes/sequence-flow.md
+  - https://docs.frends.com/reference/triggers/api-trigger.md
+  - https://docs.frends.com/reference/triggers/mcp-trigger.md
+  - https://docs.frends.com/reference/triggers/tcp-trigger.md
+  - https://docs.frends.com/reference/triggers/amqp-trigger.md
+  - https://docs.frends.com/reference/triggers/file-trigger.md
+  - https://docs.frends.com/reference/triggers/http-trigger.md
+  - https://docs.frends.com/reference/frends-6.1.0/reference.md
+  - https://docs.frends.com/reference/frends-6.2.0/reference.md
+  - https://docs.frends.com/reference/shapes/activity-shapes.md
+  - https://docs.frends.com/reference/shapes/artifact-shapes.md
+  - https://docs.frends.com/reference/shapes/decision-shapes.md
+  - https://docs.frends.com/reference/triggers/manual-trigger.md
+  - https://docs.frends.com/reference/frends-6.1.0/shapes/shape.md
+  - https://docs.frends.com/reference/frends-6.2.0/shapes/shape.md
+  - https://docs.frends.com/reference/shapes/event-shapes/catch.md
+  - https://docs.frends.com/reference/shapes/event-shapes/throw.md
+  - https://docs.frends.com/reference/shapes/scope-shapes/scope.md
+  - https://docs.frends.com/reference/shapes/scope-shapes/while.md
+  - https://docs.frends.com/reference/triggers/rabbitmq-trigger.md
+security:
+- API_Key: []
+- Basic_Authentication: []
+tags:
+- name: Reference
+paths:
+  /reference/reference.md:
+    get:
+      operationId: get_reference_reference_md
+      tags:
+      - Reference
+      summary: Reference
+      description: Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter.
+      x-source: https://docs.frends.com/reference/reference.md
+      parameters:
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: 'The immediate question: it should be specific, self-contained, and written in natural language.'
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional broader end goal you are ultimately trying to accomplish.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /reference/shapes/scope-shapes/{scopeshapeid}:
+    get:
+      operationId: get_reference_shapes_scope_shapes_scopeshapeid
+      tags:
+      - Reference
+      summary: Scope
+      description: Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter to retrieve answers from the documentation.
+      x-source: https://docs.frends.com/reference/shapes/scope-shapes/scope.md
+      parameters:
+      - name: scopeshapeid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The immediate question to ask the documentation, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional broader end goal describing what you ultimately want to accomplish.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 2 example path(s) differing only at scopeshapeId
+  /reference/shapes/{shapeid}:
+    get:
+      operationId: get_reference_shapes_shapeid
+      tags:
+      - Reference
+      summary: Activity Shapes
+      description: Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter to retrieve a direct answer and relevant excerpts from the documentation.
+      x-source: https://docs.frends.com/reference/shapes/activity-shapes.md
+      parameters:
+      - name: shapeid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The immediate question to ask the documentation, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional broader end goal describing what you ultimately want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 6 example path(s) differing only at shapeId
+  /reference/triggers/{triggerid}:
+    get:
+      operationId: get_reference_triggers_triggerid
+      tags:
+      - Reference
+      summary: Running Processes in order using Message Queues
+      description: Perform an HTTP GET request on the current page URL with the `ask` query parameter, and optionally a `goal` parameter, to retrieve a direct answer from the documentation.
+      x-source: https://docs.frends.com/reference/triggers/amqp-trigger.md
+      parameters:
+      - name: triggerid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The immediate question; specific, self‑contained, natural language query to the documentation page.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional broader end goal to help tailor the answer.
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetReferenceTriggersTriggeridResponse'
+      x-evidence:
+        kind: documentation
+        collapsed_from: 4 example path(s) differing only at triggerId
+  /reference/{referenceid}/reference.md:
+    get:
+      operationId: get_reference_referenceid_reference_md
+      tags:
+      - Reference
+      summary: Frends Reference documentation for Frends version 6.1.0
+      description: Retrieves the Markdown content of the reference page, optionally answering a question.
+      x-source: https://docs.frends.com/reference/frends-6.1.0/reference.md
+      parameters:
+      - name: referenceid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question; specific, self‑contained, natural language query.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional broader end goal to tailor the answer.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 2 example path(s) differing only at referenceId
+  /reference/{referenceid}/shapes/shape.md:
+    get:
+      operationId: get_reference_referenceid_shapes_shape_md
+      tags:
+      - Reference
+      summary: Any visualized element in Frends process
+      x-source: https://docs.frends.com/reference/frends-6.1.0/shapes/shape.md
+      parameters:
+      - name: referenceid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The immediate question to ask the documentation.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional broader end goal for tailoring the answer.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 2 example path(s) differing only at referenceId
+components:
+  schemas:
+    GetReferenceTriggersTriggeridResponse:
+      type: object
+      properties:
+        answer:
+          type: string
+          description: Direct answer to the question with relevant excerpts and sources.
+  securitySchemes:
+    API_Key:
+      type: apiKey
+      in: header
+      name: Authorization
+      x-source: https://docs.frends.com/guides/ai-features/setting-up-entra-id-oauth-for-mcp-triggers.md
+    Basic_Authentication:
+      type: http
+      scheme: basic
+      x-source: https://docs.frends.com/guides/ai-features/setting-up-entra-id-oauth-for-mcp-triggers.md
