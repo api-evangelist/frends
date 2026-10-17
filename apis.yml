@@ -40,18 +40,25 @@ created: '2026-03-16'
 modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
-  - aid: frends:frends
-    name: Frends API
-    description: >-
-      Frends iPaaS provides integration and automation capabilities through
-      REST APIs.
-    humanURL: https://docs.frends.com/
-    tags:
-      - Integration
-      - iPaaS
-    properties:
-      - type: Documentation
-        url: https://docs.frends.com/
+- aid: frends:frends
+  name: Frends API
+  description: Frends iPaaS provides integration and automation capabilities through REST APIs.
+  humanURL: https://docs.frends.com/
+  tags:
+  - Integration
+  - iPaaS
+  properties:
+  - type: Documentation
+    url: https://docs.frends.com/
+- aid: frends:frends-reference-api
+  name: Frends Reference API
+  description: The Reference API from Frends — 6 operation(s) for reference.
+  humanURL: https://docs.frends.com/
+  tags:
+  - Reference
+  properties:
+  - type: OpenAPI
+    url: openapi/frends-reference-api-openapi.yml
 common:
   - type: Plans
     url: plans/frends-plans-pricing.yml
